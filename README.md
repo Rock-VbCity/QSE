@@ -1,0 +1,2 @@
+# QSE
+ Grunt QlikSense Extensions
