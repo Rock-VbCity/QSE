@@ -25,6 +25,22 @@ exports.template = function(grunt, init, done) {
 
   init.process({}, [
     // Prompt for these values.
+    // QlikSense /////////////////////////////////////////////////////////////////////////
+
+    // QS qext fields
+    init.prompt('name'),
+    init.prompt('description'),
+    init.prompt('type'    , 'visualization'),
+    init.prompt('version' , '1.0.0'),
+    init.prompt('icon'    , 'extension'),
+    init.prompt('author_name'),
+    init.prompt('homepage'),
+    init.prompt('keywords', 'qlik-sense, visualization, alignmatrix'),
+    init.prompt('license' , 'MIT'),
+    init.prompt('repository'),
+    init.prompt('author_email'),
+    init.prompt('author_url') 
+/*    
     {
       name: 'dom',
       message: 'Is the DOM involved in ANY way?',
@@ -43,6 +59,7 @@ exports.template = function(grunt, init, done) {
       default: 'Y/n',
       warning: 'This changes how filenames are determined and banners are generated.'
     }
+*/    
   ], function(err, props) {
     props.dom = /y/i.test(props.dom);
     props.min_concat = /y/i.test(props.min_concat);
@@ -69,10 +86,10 @@ exports.template = function(grunt, init, done) {
     props.jquery = grunt.file.expand({filter: 'isFile'}, '**/jquery*.js').length > 0;
 
     // Files to copy (and process).
-    var files = init.filesToCopy(props);
+    // var files = init.filesToCopy(props);
 
     // Actually copy (and process) files.
-    init.copyAndProcess(files, props);
+    // init.copyAndProcess(files, props);
 
 
     // If is package_json true, generate package.json
@@ -101,6 +118,31 @@ exports.template = function(grunt, init, done) {
       });
     }
 
+    // QlikSense /////////////////////////////////////////////////////////////////////////
+
+    // extension.qext file
+
+    var QSDependencies = {
+      "dependencies" : { "qlik-sense" : ">=3.0.x" }
+    };
+
+    var QSExt = {
+      'name'         : props.name,
+      'description'  : props.description + '; version ' + props.version,
+      'type'         : props.type,
+      'version'      : props.version,
+      'icon'         : props.icon,
+      'author'       : props.author_name,
+      'homepage'     : props.homepage,
+      'keywords'     : props.keywords,
+      'license'      : props.license,
+      'repository'   : props.repository,
+      'preview'      : props.name + '.png',
+      "dependencies" : { "qlik-sense" : ">=3.0.x" }
+    };
+
+    grunt.file.write(props.name + '.qext', JSON.stringify(QSExt, null, '\t'));
+   
     // All done!
     done();
   });
