@@ -40,26 +40,7 @@ exports.template = function(grunt, init, done) {
     init.prompt('repository'),
     init.prompt('author_email'),
     init.prompt('author_url') 
-/*    
-    {
-      name: 'dom',
-      message: 'Is the DOM involved in ANY way?',
-      default: 'Y/n',
-      warning: 'Yes: QUnit unit tests + JSHint "browser" globals. No: Nodeunit unit tests.'
-    },
-    {
-      name: 'min_concat',
-      message: 'Will files be concatenated or minified?',
-      default: 'Y/n',
-      warning: 'Yes: min + concat tasks. No: nothing to see here.'
-    },
-    {
-      name: 'package_json',
-      message: 'Will you have a package.json file?',
-      default: 'Y/n',
-      warning: 'This changes how filenames are determined and banners are generated.'
-    }
-*/    
+      
   ], function(err, props) {
     props.dom = /y/i.test(props.dom);
     props.min_concat = /y/i.test(props.min_concat);
@@ -86,11 +67,14 @@ exports.template = function(grunt, init, done) {
     props.jquery = grunt.file.expand({filter: 'isFile'}, '**/jquery*.js').length > 0;
 
     // Files to copy (and process).
-    // var files = init.filesToCopy(props);
+    var files = init.filesToCopy(props);
+
+    console.log('Files', files);
 
     // Actually copy (and process) files.
-    // init.copyAndProcess(files, props);
-
+    //  - it works with the rename.json file, allowing us to introduce
+    //    renaming rules.
+    init.copyAndProcess(files, props);
 
     // If is package_json true, generate package.json
     if (props.package_json) {

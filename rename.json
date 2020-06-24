@@ -1,0 +1,5 @@
+{
+  "libs/template/extension.js" : "{%= name %}.js",
+  "libs/template/extension.png": "{%= name %}.png",
+  "libs/template/wbfolder.wbl" : "wbfolder.wbl"
+}
