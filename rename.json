@@ -1,5 +1,7 @@
 {
-  "libs/template/extension.js" : "{%= name %}.js",
-  "libs/template/extension.png": "{%= name %}.png",
-  "libs/template/wbfolder.wbl" : "wbfolder.wbl"
+  "libs/template/extension.js"     : "{%= name %}.js",
+  "libs/template/extension.png"    : "{%= name %}.png",
+  "libs/template/wbfolder.wbl"     : "wbfolder.wbl",
+  "libs/js/properties.js"          : "js/properties.js",
+  "bin/*"                          : "bin/"
 }

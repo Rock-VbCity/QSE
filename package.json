@@ -1,0 +1,29 @@
+{
+  "name": "qse",
+  "version": "1.0.0",
+  "description": "QSE Grunt Template",
+  "main": "template.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rock-VbCity/QSE.git"
+  },
+  "author": "Arnaldo Sandoval",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Rock-VbCity/QSE/issues"
+  },
+  "homepage": "https://github.com/Rock-VbCity/QSE#readme",
+  "dependencies": {
+    "grunt": "^1.1.0"
+  },
+  "devDependencies": {
+    "grunt-contrib-clean": "^2.0.0",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-qunit": "^4.0.0",
+    "grunt-contrib-uglify": "^4.0.1"
+  }
+}

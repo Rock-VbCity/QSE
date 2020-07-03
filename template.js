@@ -12,10 +12,12 @@
 exports.description = 'Create a basic Gruntfile.';
 
 // Template-specific notes to be displayed before question prompts.
-exports.notes = 'This template tries to guess file and directory paths, but ' +
-  'you will most likely need to edit the generated Gruntfile.js file before ' +
-  'running grunt. _If you run grunt after generating the Gruntfile, and ' +
-  'it exits with errors, edit the file!_';
+exports.notes = 'This template builds a QlikSense\'s Extension folder with a ' +
+  'default set of properties; you should answer all the questions related to ' +
+  'the extension\'s qext file. Additionally, the Extension\'s folder includes ' +
+  'a Gruntfile.js that you will most likely need to customize for your extension' +
+  'needs. _If you run grunt after generating the Gruntfile, and it exits with ' +
+  'errors, edit the file!_.                         ';
 
 // Any existing file or directory matching this wildcard will cause a warning.
 exports.warnOn = 'Gruntfile.js';
@@ -35,7 +37,7 @@ exports.template = function(grunt, init, done) {
     init.prompt('icon'    , 'extension'),
     init.prompt('author_name'),
     init.prompt('homepage'),
-    init.prompt('keywords', 'qlik-sense, visualization, alignmatrix'),
+    init.prompt('keywords', 'qlik-sense, visualization'),
     init.prompt('license' , 'MIT'),
     init.prompt('repository'),
     init.prompt('author_email'),
@@ -69,21 +71,27 @@ exports.template = function(grunt, init, done) {
     // Files to copy (and process).
     var files = init.filesToCopy(props);
 
-    console.log('Files', files);
-
     // Actually copy (and process) files.
     //  - it works with the rename.json file, allowing us to introduce
     //    renaming rules.
-    init.copyAndProcess(files, props);
+
+    init.copyAndProcess(files, props, {noProcess: '**/*.png'});
 
     // If is package_json true, generate package.json
+    props.package_json = 'Y';
     if (props.package_json) {
       var devDependencies = {
-        'grunt': '~0.4.5',
-        'grunt-contrib-jshint': '~0.10.0',
-        'grunt-contrib-watch': '~0.6.1'
+        'grunt': "^1.1.0",
+        'grunt-contrib-clean': '^2.0.0',
+        'grunt-contrib-concat': '^1.0.1',
+        'grunt-contrib-copy': '^1.0.0',
+        'grunt-contrib-jshint': '^2.1.0',
+        'grunt-contrib-nodeunit': '^2.1.0',
+        'grunt-contrib-qunit': '^4.0.0',
+        'grunt-contrib-uglify': '^4.0.1',
+        'grunt-contrib-watch': '^1.1.0'
       };
-
+/*
       if (props.dom) {
         devDependencies['grunt-contrib-qunit'] = '~0.5.2';
       } else {
@@ -94,9 +102,15 @@ exports.template = function(grunt, init, done) {
         devDependencies['grunt-contrib-concat'] = '~0.4.0';
         devDependencies['grunt-contrib-uglify'] = '~0.5.0';
       }
-
+*/
       // Generate package.json file, used by npm and grunt.
       init.writePackageJSON('package.json', {
+        name: props.name,
+        version: '1.0.0',
+        description: props.description,
+        main: props.name + '.js',
+        author: props.author_name,
+        license: props.license,
         node_version: '>= 0.10.0',
         devDependencies: devDependencies
       });
@@ -127,6 +141,16 @@ exports.template = function(grunt, init, done) {
 
     grunt.file.write(props.name + '.qext', JSON.stringify(QSExt, null, '\t'));
    
+    // generating wbfolder.wbl file
+    var fs      = require('fs');
+    for (const [key, value] of Object.entries(files)) {
+      fs.appendFileSync('wbfolder.wbl', key + ';\n');
+    }
+    // fs.appendFileSync('wbfolder.wbl', 'wbfolder.wbl;\n');
+    fs = undefined;
+
+    console.log('\n\nExtension ' + props.name + ' environment ready!');
+
     // All done!
     done();
   });
