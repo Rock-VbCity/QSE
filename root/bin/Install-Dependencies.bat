@@ -9,3 +9,4 @@ call bin\install_contrib_jshint.bat
 call bin\install_contrib_watch.bat
 
 call bin\install_contrib_copy.bat
+call bin\install_contrib_text_replace.bat

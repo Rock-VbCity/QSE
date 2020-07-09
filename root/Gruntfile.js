@@ -1,8 +1,9 @@
-'use strict';
-
 module.exports = function(grunt) {
 
-  // Project configuration.
+  'use strict';
+//  var g = grunt.file.readJSON('package.json');
+//
+// Project configuration.
   grunt.initConfig({
     // Metadata.
     pkg: grunt.file.readJSON('package.json'),
@@ -10,11 +11,21 @@ module.exports = function(grunt) {
       '<%= grunt.template.today("yyyy-mm-dd") %>\n' +
       '<%= pkg.homepage ? "* " + pkg.homepage + "\\n" : "" %>' +
       '* Copyright (c) <%= grunt.template.today("yyyy") %> <%= pkg.author.name %>;' +
-      ' Licensed <%= _.pluck(pkg.licenses, "type").join(", ") %> */\n',
+      ' Licensed <%= pkg.license %> */\n',
     
     // Task configuration.
     clean: {
       files: ['dist']
+    },
+    replace: {
+      build: {
+        src: ['<%= pkg.name %>.js'],
+        dest: ['dist/<%= pkg.name %>.replace-text.js'],
+        replacements: [ { 
+          from: 'properties',
+          to: 'properties.min'
+        } ]
+      },
     },
     concat: {
       options: {
@@ -25,6 +36,12 @@ module.exports = function(grunt) {
         src: ['src/jquery.<%= pkg.name %>.js'],
         dest: 'dist/jquery.<%= pkg.name %>.js'
       },
+      build: {
+        files: {
+          'dist/js/properties.js' : ['src/js/properties.js'],
+          'dist/<%= pkg.name %>.js' : ['src/<%= pkg.name %>.js']
+        },
+      },
     },
     uglify: {
       options: {
@@ -33,6 +50,12 @@ module.exports = function(grunt) {
       dist: {
         src: '<%= concat.dist.dest %>',
         dest: 'dist/jquery.<%= pkg.name %>.min.js'
+      },
+      build: {
+        files: {
+          'dist/js/properties.min.js' : ['dist/js/properties.js'],
+          'dist/<%= pkg.name %>.min.js' : ['dist/<%= pkg.name %>.js']
+        },
       },
     },
     qunit: {
@@ -66,17 +89,27 @@ module.exports = function(grunt) {
         tasks: ['jshint:test', 'qunit']
       },
     },
-    QSE_src: {
-      main: {
+    copy: {
+      src_Grunt: {
         files: [ {expand: true, 
-                  src: ['js/**'], 
+                  src: ['js/**', 'bin/**', '<%= pkg.name %>.*', 'Gruntfile.js', 'wbfolder.wbl', 'package.json', 'package-lock.json'], 
+                  dest: 'srcGrunt'} ]
+      },
+      src: {
+        files: [ {expand: true,
+                  src: ['js/**', '<%= pkg.name %>.*' ],
                   dest: 'src'} ]
-      }
+      },
+      build: {
+        files: [ {expand: true,
+                  src: ['<%= pkg.name %>.png', '<%= pkg.name %>.qext'],
+                  dest: 'dist/'}]
+      },
     },
     });
 
-  grunt.registerTask('speak', function() {
-    console.log('Speak');
+  grunt.registerTask('ack', function() {
+    console.log('I am working fine!');
   });
 
   // These plugins provide necessary tasks.
@@ -86,10 +119,17 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-qunit');
   grunt.loadNpmTasks('grunt-contrib-jshint');
   grunt.loadNpmTasks('grunt-contrib-watch');
-  grunt.loadNpmTasks('grunt-contrib-copy'); //  ==> QSE template
+  grunt.loadNpmTasks('grunt-contrib-copy');
+  grunt.loadNpmTasks('grunt-text-replace'); //  ==> QSE template
   
   // Default task.
   // grunt.registerTask('default', ['jshint', 'qunit', 'clean', 'concat', 'uglify']);
-  grunt.registerTask('QSE_Source', ['QSE_src']);
-
+  grunt.registerTask('srcGrunt', ['copy:src_Grunt']);
+  grunt.registerTask('src', ['copy:src']);
+  grunt.registerTask('build', ['jshint:src', 
+                               'clean', 
+                               'concat:build', 
+                               'copy:build', 
+                               'uglify:build',
+                               'replace:build']);
 };

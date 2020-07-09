@@ -106,11 +106,13 @@ exports.template = function(grunt, init, done) {
       // Generate package.json file, used by npm and grunt.
       init.writePackageJSON('package.json', {
         name: props.name,
+        title: props.description,
         version: '1.0.0',
+        license: props.license,
         description: props.description,
         main: props.name + '.js',
-        author: props.author_name,
-        license: props.license,
+        author_name: props.author_name,
+        homepage: props.homepage,
         node_version: '>= 0.10.0',
         devDependencies: devDependencies
       });

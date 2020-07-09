@@ -1,9 +1,10 @@
-# QSE QlikSense Extensions Scaffolding
+# QSE Grunt Template for QlikSense
 
-This is a Grunt-Init project scaffolding to automate the creation of QlikSense Extensions environments; you should run the script in the extension's folder.
+This is a Grunt-Init Template that creates a QlikSense Extension with several features, including a companion Gruntfile.js implementing some tasks to manage your extension's build process and storing it at your repository.
 
 ## Prerequisites
 
+node.js
 grunt-cli
 grunt-init
 
@@ -11,16 +12,29 @@ grunt-init
 If you haven't already done so, install [grunt-init](http://gruntjs.com/project-scaffolding "grunt-init").
 
 Once grunt-init is installed, place this template in your `~/.grunt-init/` directory. It's recommended that you use git to clone this template into that directory, as follows:
-
 ```
 git clone https://github.com/gruntjs/grunt-init-gruntfile.git ~/.grunt-init/QSE
 ```
 ## Usage
+<ol>
+<li> Create the directory for your extension at:<br><br>
+<code>
+C:\Users\<user-login>\Documents\Qlik\Sense\Extensions\<Extension_Name>
+</code></li><br>
 
-At the command-line, cd into an empty directory, run this command and follow the prompts.
-
+<li> Open a CMD (old faithful DOS) session and navigate to the extension's folder (you can create its folder using DOS as well)
 ```
-grunt-init gruntfile
+cd C:\Users\<user-login>\Documents\Qlik\Sense\Extensions\<Extension_Name>
 ```
-
+**2b.** or, if you want to create the extesion's folder with DOS
+```
+cd C:\Users\<user-login>\Documents\Qlik\Sense\Extensions
+mkdir <Extension_Name>
+cd <Extension_Name>
+```
+**3.** Type the command:
+```
+grunt-init QSE
+```
 _Note that this template will generate files in the current directory, so be sure to change to a new directory first if you don't want to overwrite existing files._
+</ol>

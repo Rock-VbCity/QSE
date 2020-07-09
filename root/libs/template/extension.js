@@ -6,7 +6,7 @@ function ( qlik, props, $) {
 
 	function isEmpty(obj) {
 		return (obj === null || obj === undefined || obj === '' || obj.length ===0);	
-	};
+	}
 
 	function alignMatrix(layout, $) {
 			var myqInfoqId     = layout.qInfo.qId;
@@ -73,7 +73,7 @@ function ( qlik, props, $) {
 			}
 
 			return myHTML;
-	};
+	}
 
 	return {
 		support : {

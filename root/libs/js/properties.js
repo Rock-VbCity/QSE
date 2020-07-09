@@ -17,7 +17,7 @@ define( [], function () {
 		label: "Reset Canvas to Image Size",
 		type: "boolean",
 		component: "switch",
-		show: function(layout) { if(layout.myproperties.myImage.length === 0) { return false } else { return true }},
+		show: function(layout) { if(layout.myproperties.myImage.length === 0) { return false; } else { return true; }},
 		defaultValue: false,
 		options: [
 			{ 
@@ -45,7 +45,7 @@ define( [], function () {
 		type: "string",
 		component: "align-matrix",
 		defaultValue: "centerCenter",
-		show: function(layout) { if(layout.myproperties.myImage.length === 0) { return false } else { return true }}
+		show: function(layout) { if(layout.myproperties.myImage.length === 0) { return false; } else { return true; }}
 	};
 
 	var myImagePadding = {
@@ -53,7 +53,7 @@ define( [], function () {
 		label: "Image Padding",
 		type: "boolean",
 		component: "switch",
-		show: function(layout) { if(layout.myproperties.myImage.length === 0) { return false } else { return true }},
+		show: function(layout) { if(layout.myproperties.myImage.length === 0) { return false; } else { return true; }},
 		defaultValue: false,
 		options: [
 			{ 
