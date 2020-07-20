@@ -1,8 +1,12 @@
 define( [ "qlik",
 		  "./js/properties",
+		  "text!./css/myAboutProperty.css",
 		  "jquery"
 ],
-function ( qlik, props, $) {
+function ( qlik, props, cssAbout, $) {
+	'use strict';
+
+	$("<style>").html(cssAbout).appendTo("head");
 
 	function isEmpty(obj) {
 		return (obj === null || obj === undefined || obj === '' || obj.length ===0);	

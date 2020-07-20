@@ -244,6 +244,28 @@ define( [], function () {
 		}
 	};
 
+	var myAboutSection = {
+		label: "About",
+		component: "items",
+		items: {
+			myAboutLogo: {
+				label: ".",
+				url: '',
+				component: "link",
+			},
+			myaboutversion: {
+				label: "1.0.0",
+				url: "",
+				component: "link",
+			},
+			myAboutlink: {
+				label: "www.google.com",
+				component: "link",
+				url: "http://google.com"
+			}
+		}
+	};
+
 	// ****************************************************************************************
 	// Sections definitions
 	// ****************************************************************************************
@@ -295,16 +317,17 @@ define( [], function () {
 					mySwitch: mySwitch
 				}
 			},
+			
 			myNewHeader5: {
 				type: "items",
 				label: "Various",
 				items: {
 					myTextarea: myTextarea,
 					mypropertiesTextArray: mypropertiesTextArray,
-					myMyList: myMyList
+					myMyList: myMyList					
 				}
-			}
-			
+			},
+			aboutSection: myAboutSection	
 		}
 	};
 

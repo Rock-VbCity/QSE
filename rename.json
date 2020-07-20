@@ -1,7 +1,9 @@
 {
   "libs/template/extension.js"     : "{%= name %}.js",
   "libs/template/extension.png"    : "{%= name %}.png",
+  "libs/template/logo.png"         : "logo.png",
   "libs/template/wbfolder.wbl"     : "wbfolder.wbl",
   "libs/js/properties.js"          : "js/properties.js",
+  "libs/css/myAboutProperty.css"   : "css/myAboutProperty.css",
   "bin/*"                          : "bin/"
 }

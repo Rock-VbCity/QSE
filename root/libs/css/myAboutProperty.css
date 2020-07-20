@@ -1,0 +1,23 @@
+div[tid=myAboutLogo] .value {
+	background: url("http://localhost:4848/content/default/logo.png") no-repeat!important;
+	height: 80px!important;
+	margin-left: 10%!important;
+	margin-top: 10%!important;
+}
+
+div[tid=myAboutlink] .value{
+	text-align: center!important;
+}
+
+div[tid=myaboutversion] .value{
+	text-align: right!important;
+}
+
+div[tid=myAboutlink] {
+	text-decoration: none!important;
+}
+
+div[tid=myAboutlink] .value a:hover{
+	text-decoration: underline!important;
+	color: red!important;
+}
