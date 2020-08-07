@@ -1,12 +1,12 @@
 # QSE Grunt Template for QlikSense
 
-This is a Grunt-Init Template that creates a QlikSense Extension with several features, including a companion Gruntfile.js implementing some tasks to manage your extension's build process and storing it at your repository.
+This is a **Grunt-Init Template** that creates a QlikSense Extension with several features, including a companion *Gruntfile.js* implementing some tasks to manage your extension's build process and storing it at your **GitHub** repository.
 
 ## Prerequisites
 
-node.js
-grunt-cli
-grunt-init
+* node.js
+* grunt-cli
+* grunt-init
 
 ## Installation
 If you haven't already done so, install [grunt-init](http://gruntjs.com/project-scaffolding "grunt-init").
