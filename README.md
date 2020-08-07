@@ -8,6 +8,8 @@ This is a **Grunt-Init Template** that creates a QlikSense Extension with severa
 * grunt-cli
 * grunt-init
 
+This link [Grunt Prerequisites](docs/Grunt-Prerequisites.md) takes you to a detailed prerequisites review.
+
 ## Installation
 If you haven't already done so, install [grunt-init](http://gruntjs.com/project-scaffolding "grunt-init").
 

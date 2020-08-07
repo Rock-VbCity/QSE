@@ -37,3 +37,7 @@ We used Windows 10 hosted by an Oracle VM Virtual Box with the following configu
         C:\users\<login-account>\Documents<br>
         C:\users\<login-account>\Documents\Qlik\Sense
 </span>
+
+### GitHub
+
+We do not need GitHub installed for Grunt to work but one of the benefits of installing this Grunt based QSE Template is to enable deploying your QlikSense extension into your GitHub repositories. 
