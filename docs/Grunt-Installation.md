@@ -2,7 +2,7 @@
 
 As the [Grunt Prerequisites](docs/Grunt-Prerequisites.md) explained, we have to install the following components:
 
-* [Installing node.js](#installing-node-js)
+* [Installing node.js](#installing-nodejs)
 
 * [node.js](https://nodejs.org/en/ "nodejs")
 <li> [grunt-cli](https://gruntjs.com/getting-started)
@@ -55,4 +55,5 @@ npm –v</pre>
 
 The npm version was **6.14.6** at the time of writing.
 
-#installing-node-js
+#installing-nodejs
+hello
