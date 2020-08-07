@@ -89,7 +89,18 @@ please see the Getting Started guide:
 
 https://gruntjs.com/getting-started</pre>
 
-You do not need to worry, as we acomplish the local grunt when executing the **QSE Template**.
+You do not need to worry, as we acomplish the local grunt installation when executing the **QSE Template**.
 
 ### Installing [grunt-init](https://gruntjs.com/project-scaffolding)
+
+Grunt-init is a scaffolding tool used to automate project creation. It will build an entire directory structure based on current environment and answers to some questions. The exact files and contents created depend on the template chosen along with the answers to the questions asked.
+
+##### Installation
+
+In order to use grunt-init, you'll want to install it globally.
+
+<pre>npm install -g grunt-init</pre>
+This will put the **grunt-init** command in your system path, allowing it to be run from anywhere.
+
+**Notes:** You may need to use your command shell as Administrator to do this.
 
