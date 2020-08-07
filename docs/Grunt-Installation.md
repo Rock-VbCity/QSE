@@ -3,8 +3,7 @@
 As the [Grunt Prerequisites](docs/Grunt-Prerequisites.md) explained, we have to install the following components:
 
 * [Installing node.js](#installing-nodejs)
-
-* [node.js](https://nodejs.org/en/ "nodejs")
+* [Installing grunt-cli](#installing-grunt-cli)
 <li> [grunt-cli](https://gruntjs.com/getting-started)
 <li> [grunt-init](https://gruntjs.com/project-scaffolding)
 </ul>
@@ -55,5 +54,5 @@ npm –v</pre>
 
 The npm version was **6.14.6** at the time of writing.
 
-#installing-nodejs
-hello
+### Installing [grunt-cli](https://gruntjs.com/getting-started)
+
