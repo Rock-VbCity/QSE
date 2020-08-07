@@ -29,6 +29,10 @@ We used Windows 10 hosted by an Oracle VM Virtual Box with the following configu
 * Markdown2 
 * QlikSense Desktop June 2020 Path 2 Update 1
 
+### Account
+* We need an account with administrator privileges (or the ability to download and install software)
+* Access to the Windows command line (search > cmd > right-click > run as administrator) OR Windows PowerShell (Search > Powershell > right-click > run as administrator)
+
 ### Comments
 
 * Standard folder setup:
