@@ -4,11 +4,7 @@ As the [Grunt Prerequisites](docs/Grunt-Prerequisites.md) explained, we have to 
 
 * [Installing node.js](#installing-nodejs)
 * [Installing grunt-cli](#installing-grunt-cli)
-<li> [grunt-cli](https://gruntjs.com/getting-started)
-<li> [grunt-init](https://gruntjs.com/project-scaffolding)
-</ul>
-
-
+* [Installing grunt-init](#installing-grunt-init)
 
 ### Installing [node.js](https://nodejs.org/en/ "nodejs")
 
@@ -20,6 +16,7 @@ There is a plethora of tutorials documenting **node.js** installation, these are
 Either one will do, we followed the directions from the Phoenixnap web site.
 
 ##### Step 1 Download Node.js Installer
+
 1. Download Node.js Installer
 
 ##### Step 2: Install Node.js and NPM from Browser
@@ -54,5 +51,45 @@ npm –v</pre>
 
 The npm version was **6.14.6** at the time of writing.
 
+##### Latest node.js version
+We had installed the LTS (Long Term Stable) version, so there is not need to run any update command. 
+
 ### Installing [grunt-cli](https://gruntjs.com/getting-started)
+
+Grunt and Grunt plugins are installed and managed via npm, the Node.js package manager.
+
+Because we are executing these procedures on Windows 10, you should start windows command prompt with **administrator** priviledges.
+
+Before setting up Grunt ensure that your npm is up-to-date by running <pre>npm update -g npm</pre> (this might require a Windows command session with **administrator** priviledges).
+
+##### Installing CLI
+
+In order to get started, you'll want to install Grunt's command line interface (CLI) globally. You may need to run your command shell as Administrator, to do this.
+
+<pre>npm install -g grunt-cli</pre>
+
+After several messages appeared in the console, this will put the grunt command in your system path, allowing it to be run from any directory.
+
+##### Verify installation
+
+Type the following command in your Windows console session:
+
+<pre>grunt -v</pre>
+
+You should see the message:
+
+<pre>grunt-cli: The grunt command line interface (v1.3.2)</pre>
+
+You may also get this message
+
+<pre>Fatal error: Unable to find local grunt.<br>
+If you're seeing this message, grunt hasn't ben installed locally to
+your project. For more information about installing and configuring grunt, 
+please see the Getting Started guide:
+
+https://gruntjs.com/getting-started</pre>
+
+You do not need to worry, as we acomplish the local grunt when executing the **QSE Template**.
+
+### Installing [grunt-init](https://gruntjs.com/project-scaffolding)
 
