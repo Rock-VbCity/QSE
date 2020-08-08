@@ -104,3 +104,22 @@ This will put the **grunt-init** command in your system path, allowing it to be 
 
 **Notes:** You may need to use your command shell as Administrator to do this.
 
+##### Post installation
+
+The command **grunt-init** is ready available to build your project from a *TEMPLATE*; these *TEMPLATES* projects are located at the <span style="color:brown;">%USERPROFILE%\.grunt-init\</span> folder; the grunt-init installation does not create this folder for us; we should create it manually from the Windows command session (as administrator).
+
+Notice the folder name starts with a dot, e.g. <span style="color:red; font-weight:bold;">.</span><span style="color:brown;">grunt-init</span>
+
+We create the folder by executing these commands:
+<pre>cd /users/<span style="color:brown; font-weight:bold;">&lt;user_account></span>
+mkdir <span style="color:brown;">.grunt-init</span></pre>
+Where:<br>
+<ul>
+<li><span style="color:brown;">&lt;user&#95;account></span> is your Windows login account, and <span style="color:brown;">/users/&lt;user_account></span> is your home directory.
+<li><span style="font-weight:bold;">mkdir</span> command creates the folder
+</ul>
+
+### Summary
+
+We installed the components required by **grunt** and **grunt-init**; and created the folder (**.grunt-init**) the will contain the scaffolding projects.
+

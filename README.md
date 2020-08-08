@@ -7,8 +7,9 @@ This is a **Grunt-Init Template** that creates a QlikSense Extension with severa
 * node.js
 * grunt-cli
 * grunt-init
+* QSE; the grunt-init scaffolding folder
 
-This link [Grunt Prerequisites](docs/Grunt-Prerequisites.md) takes you to a detailed prerequisites review.
+This link [Grunt Prerequisites](docs/Grunt-Prerequisites.md) explains what is required to install **Grunt** in your Windows machine.
 
 ## Installation
 If you haven't already done so, install [grunt-init](http://gruntjs.com/project-scaffolding "grunt-init").
