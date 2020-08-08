@@ -12,6 +12,12 @@ This is a **Grunt-Init Template** that creates a QlikSense Extension with severa
 This link [Grunt Prerequisites](docs/Grunt-Prerequisites.md) explains what is required to install **Grunt** in your Windows machine.
 
 ## Installation
+
+We split the installation procedure in two separated documents:
+
+* [Grunt Installation](docs/Grunt-Installation.md) explains the installation of the components required by **Grunt**.
+
+
 If you haven't already done so, install [grunt-init](http://gruntjs.com/project-scaffolding "grunt-init").
 
 Once grunt-init is installed, place this template in your `~/.grunt-init/` directory. It's recommended that you use git to clone this template into that directory, as follows:
