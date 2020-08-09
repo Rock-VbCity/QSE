@@ -1,0 +1,1 @@
+# <img src="images/grunt-03.png" width="60px"> Grunt QSE Template installation
