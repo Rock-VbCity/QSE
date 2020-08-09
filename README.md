@@ -15,7 +15,7 @@ This link [Grunt Prerequisites](docs/Grunt-Prerequisites.md) explains what is re
 
 We split the installation procedure in two separated documents:
 
-* [Grunt Installation](docs/Grunt-Installation.md) explains the installation of the components required by **Grunt** and the **QSE Template**.
+* [Grunt Installation](docs/Grunt-Installation.md) explains the installation of the components required by **Grunt** and the **QSE Grunt Template**.
 * [Grunt QSE Template Installation](docs/Grunt-QSE-Template-Installation.md) explains installing the QSE Template in your Windows workstation.
 
 
