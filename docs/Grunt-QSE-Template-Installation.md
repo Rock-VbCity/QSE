@@ -8,9 +8,9 @@ You should have an empty .grunt-init folder at your C:\Users\<user_account>\.gru
 
 Before installing the QSE Template repository you should decide the folder that best suits your needs or preferences, these are some of the possibilities:
 
-* [Install directly into the .grunt-init folder](#install-directly)
-* [Install into your GitHub repositories parent folder](#install-into-your-github -repositories-parent-folder)
-* [Install into your QlikSense Desktop folder](#Install into your QlikSense Desktop folder)
+* [Install directly into the .grunt-init folder](#install-directly-into-the-grunt-init-folder)
+* [Install into your GitHub repositories parent folder](#install-into-your-github-repositories-parent-folder)
+* [Install into your QlikSense Desktop folder](#Install-into-your-QlikSense-Desktop-folder)
 
 ##### Install directly into the grunt init folder
 
