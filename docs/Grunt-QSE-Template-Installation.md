@@ -17,9 +17,14 @@ You need to install the **QSE** Template repository at one of these three folder
 ##### Install directly into the grunt init folder
 
 <ol>
-	<li>Open your favourite Browser
-	<li>Navigate to the QSE repository at this URL: <a href="https://github.com/Rock-VbCity/QSE" target="_blank">https://github.com/Rock-VbCity/QSE</a>
-	<li>
+	<li>Open a DOS command session.
+	<li>Navigate to the .grunt-init folder
+<pre>cd \users\&lt;user_account>\.grunt-init
+</pre>
+    <li>Execute the following GitHub command:
+<pre>
+git clone https://github.com/Rock-VbCity/QSE QSE
+</pre>
 </ol>
 
 ##### Install into your github repositories parent folder
