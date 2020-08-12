@@ -63,16 +63,16 @@ We are assuming that you have GitHub installed in your Windows environment, and 
 <pre>
 git clone https://github.com/Rock-VbCity/QSE QSE
 </pre>
-<img src="images/gsw-Git-Repository-04.png" width="450px">
+<img src="images/qse-Git-Repository-04.png" width="450px">
 <li> <b>Procedure Complete</b>; but Grunt is not ready to find the <i>QSE template</i> as yet, because we are missing a couple of steps, explained in the section</ol>
 
 <span style="padding-left:30px;">[Linking the .init-folde\QSE with your QSE installation folder](#linking-the-.init-folde\QSE-with-your-QSE-installation-folder).</span>
 
 ##### Install into your QlikSense Desktop folder
 
-Finally, if you do not want to <b>Clone</b> the <i>QSE Template</i> repository on either of the folders used above, and you want to keep this repository closer to the Qlik Sense parent directory, like: <i>Local Disk (C:)</i> > <i>Users</i> > <i>&lt;user_account></i> > <i>Documents</i> > <i>Qlik</i>.
+Finally, if you do not want to <b>Clone</b> the <i>QSE Template</i> repository on either of the folders used above, and you want to keep this repository closer to the Qlik Sense parent directory, like:<pre> <i>Local Disk (C:)</i> > <i>Users</i> > <i>&lt;user_account></i> > <i>Documents</i> > <i>Qlik</i></pre>
 
-We are also assuming you installed Git in your Windows environment.
+and, assuming you had installed Git in your Windows environment.
 
 These are the steps to follow:  
 
