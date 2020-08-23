@@ -44,7 +44,7 @@ git clone https://github.com/Rock-VbCity/QSE QSE
 </pre>
 <li> <i>Right-Click</i> and select the option <b>Paste</b>
 <li> <i>Navigate</i> to the <b>Downloads</b> folder and delete the <i>QSE-master.zip</i> and <i>QSE</i> folders.
-<li> The folder <b>.grunt-init</b> should looks like this:
+<li> The folder <b>.grunt-init</b> should looks like this:<br>
 <img src="images/qse-GitHub-Repository-03.png" width="450px">
 <li> <b>Procedure Complete</b>; now you should resume in the section: 
 </ol>
