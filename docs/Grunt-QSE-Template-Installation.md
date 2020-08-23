@@ -31,7 +31,7 @@ git clone https://github.com/Rock-VbCity/QSE QSE
 <pre>https://github.com/Rock-VbCity/QSE
 </pre>
 <li> <i>Click</i> on the Download <b>Code</b> button (see image below)
-<li> <i>Click</i> on the <b>Download ZIP</b> option:
+<li> <i>Click</i> on the <b>Download ZIP</b> option:<br>
 <img src="images/qse-GitHub-Repository-01.png" width="450px">
 <li> Open the folder with the <b>QSE-master.zip</b> file, and unzip the file, removing the <b>-master</b> tag
 <img src="images/qse-GitHub-Repository-02.png" width="450px">
