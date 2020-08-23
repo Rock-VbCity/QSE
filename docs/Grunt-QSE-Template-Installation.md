@@ -110,7 +110,7 @@ git clone https://github.com/Rock-VbCity/QSE QSE
 <img src="images/qse-GitHub-Repository-06.png" width="450px">
 <li> <b>Procedure Complete</b>; now you should resume in the section: 
 </ol>
-<span style="padding-left:30px;">[Linking the .init-folde\QSE with your QSE installation folder](#linking-the-.init-folder\QSE-with-your-QSE-installation-folder).</span>
+<span style="padding-left:30px;">[Linking the .init-folde\QSE with your QSE installation folder](#linking-the-.init-folder\qse-with-your-qse-installation-folder).</span>
 
 ### Linking the .init-folder\QSE with your QSE installation folder
 
