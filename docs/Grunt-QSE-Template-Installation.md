@@ -136,4 +136,18 @@ Type the command: <pre>mklink /J C:\Users\&lt;user_account>\.grunt-init\QSE C:\U
 <span style="padding-left:58px;">[Testing your Grunt QSE Template](#testing-your-grunt-qse-template).</span>
 
 ### Testing your Grunt QSE Template
+It is time to test the Grunt QSE Template, please follow these steps:
+<ol>
+<li> Open a DOS command session.
+<li> Navigate to the <b>C:\Temp</b> folder:<pre> cd C:\Temp</pre>
+<li> Let's create a sub-folder with the name <b>QSEtest</b><pre>mkdir QSEtest</pre>
+<li> Navigate to the new folder:<pre>cd QSEtest></pre>
+<li> Now type the command <b>grunt-init</b> with the parameter <i>QSE</i> as shown<pre>grunt-init QSE</pre>
+The grunt-init start to execute the <b>QSE</b> template by displaying some messages, and asking several questions. We are not going to explain these questions here, as we are just making sure we properly installed the <b>QSE Template</b>
+<img src="images/grunt-init-QSE.png" width="550px">
+Now type Ctrl + C to brake the execution of the grunt-init execution.
+</ol>
+### Conclusions
+We just installed the <b>QSE Template</b> in your working environment; we illustrated its installation at three different folders, you only has to install it at one of them; the reason to extend this installation was for you to select the one that better suit your working style.
 
+Now, return to the main [README.md](README.md) document to continue your familiarization with this template.
