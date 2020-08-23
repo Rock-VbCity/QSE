@@ -124,12 +124,16 @@ You should follow these steps to link the <b>QSE</b> Template folder:
 <li> <b>GitHub repositories parent folder:</b> <code>\users\&lt;user_account>\GitHub</code>
 Type the command: <pre>mklink /J C:\Users\&lt;user_account>\.grunt-init\QSE C:\Users\&lt;user_account>\GitHub\QSE</pre>
 <img src="images/MLink-QSE-01.png" width="550px">
- 
+</ul></ol>
+<span style="padding-left:58px;">[Testing your Grunt QSE Template](#testing-your-grunt-qse-template).</span>
+<ul><ul> 
 <li> <b>QlikSense Desktop folder:</b> <code>\users\&lt;user_account>\Documents\Qlik</code><br>
 Type the command: <pre>mklink /J C:\Users\&lt;user_account>\.grunt-init\QSE C:\Users\&lt;user_account>\Documents\Qlik\QSE</pre>
 <img src="images/MLink-QSE-02.png" width="550px">
 </ul> 
-</ol>
+</ul>
+</ul></ol>
+<span style="padding-left:58px;">[Testing your Grunt QSE Template](#testing-your-grunt-qse-template).</span>
 
 ### Testing your Grunt QSE Template
 
