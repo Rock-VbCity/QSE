@@ -97,5 +97,5 @@ This command creates our extension environment for us; it ask several questions 
 	<td>You could include your own page's url in this field.<br>Qlik does not expect the field.<br>Grunt does not explain this field further.<br>Example:</td>
   </tr>
 </table>
-<span style="color: #008000;">Finally, it prompts you: Do you want to make any changes to the above before continuing?</span> (y/N)<br>The following output appears in your command session:
-<img src="images/grunt-init-QSE-output.png" width="500px">
+<span style="color: #008000;">Finally, it prompts you: Do you want to make any changes to the above before continuing?</span> (y/N)<br>The following output appears in your command session:<br>
+<img src="images/grunt-init-QSE-output.png" width="500px" style="align: left;">
