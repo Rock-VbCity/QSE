@@ -171,6 +171,7 @@ The <b>grunt-init QSE</b> scaffolder applied the information we entered to creat
 	<td><ul><li>It is simply a list of files in the extension, with one line for every file, terminated by semicolon.<li>It is only used by the dev-hub editors. Without it you cannot open or duplicate the extension in <b>dev-hub</b>.<li>If you do have it, only the files listed in wbfolder.wbl will be available in the <b>dev-hub</b> editors.<li>Also only the files in wbfolder.wbl will be copied if you make a copy of the extension or mashup (using <b>dev-hub</b>).</ul></td>
   </tr>
 </table>
+
 ## The extension at the Dev-Hub
 
 <img src="images/Grunt-Extension-03.png" width="500px" style="align: left;"><br>
