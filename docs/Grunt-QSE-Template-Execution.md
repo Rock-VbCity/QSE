@@ -99,3 +99,80 @@ This command creates our extension environment for us; it ask several questions 
 </table>
 <span style="color: #008000;">Finally, it prompts you: Do you want to make any changes to the above before continuing?</span> (y/N)<br>The following output appears in your command session:<br>
 <img src="images/grunt-init-QSE-output.png" width="500px" style="align: left;">
+The GruntExtension has been created and ready to be enhanced with code, it appears as shown in the next image:
+<img src="images/Grunt-Extension-01.png" width="500px" style="align: left;">
+We can notice that some of the fields <b>grunt-init QSE</b> prompted us, already become part of the <i>GruntExtension</i>.
+
+These are some of the fields we entered plus aditional items that become part of the new extension:<ol>
+<li>The name of the extension: <i>GruntExtension</i>.
+<li>Its description: <i>grunt-init QSE test</i>
+<li>Its version: <i>version 1.0.0</i>
+<li>Its library icon.
+<li>Its icon.
+
+## After installation objects
+
+<img src="images/Grunt-Extension-02.png" width="500px" style="align: left;">
+The <b>grunt-init QSE</b> scaffolder applied the information we entered to create some folders and files, including the <i>GruntExtension.qext</i> file. Let's explain them:
+<table style="border: 1px solid black; border-collapse: collapse; text-align: left;" width="100%">
+  <tr style="background-color: #e5e8e8; font: 13px Tahoma;">
+	<th>Name</th>
+	<th>Type</th>
+	<th>Description</th>
+  </tr>
+  <tr style="font: 13px Arial; vertical-align: text-top;">
+	<td>bin</td>
+	<td>Folder</td>
+	<td></td>
+  </tr>
+  <tr style="font: 13px Arial; vertical-align: text-top;">
+	<td>css</td>
+	<td>Folder</td>
+	<td></td>
+  </tr>
+  <tr style="font: 13px Arial; vertical-align: text-top;">
+	<td>js</td>
+	<td>Folder</td>
+	<td></td>
+  </tr>
+  <tr style="font: 13px Arial; vertical-align: text-top;">
+	<td>GruntExtension.js</td>
+	<td>js</td>
+	<td></td>
+  </tr>
+  <tr style="font: 13px Arial; vertical-align: text-top;">
+	<td>GruntExtension.png</td>
+	<td>png</td>
+	<td></td>
+  </tr>
+  <tr style="font: 13px Arial; vertical-align: text-top;">
+	<td>GruntExtension.qext</td>
+	<td>Qext</td>
+	<td><ul><li>The Qlik Sense extension file, or qext file.<li>It is in fact a JSON file and is used by Qlik Sense to identify the visualization.<li>It contains meta data used for the Library or Assets panel.<li>When deployed to Qlik Sense, the visualization is displayed in the Charts section of the Assets panel or Library panel.<li>All visualizations must contain at least one qext file and one JavaScript file.</ul></td>
+  </tr>
+  <tr style="font: 13px Arial; vertical-align: text-top;">
+	<td>Gruntfile.js</td>
+	<td>js</td>
+	<td></td>
+  </tr>
+  <tr style="font: 13px Arial; vertical-align: text-top;">
+	<td>logo.png</td>
+	<td>png</td>
+	<td></td>
+  </tr>
+  <tr style="font: 13px Arial; vertical-align: text-top;">
+	<td>package.json</td>
+	<td>json</td>
+	<td></td>
+  </tr>
+  <tr style="font: 13px Arial; vertical-align: text-top;">
+	<td>wbfolder.wbl</td>
+	<td>wbl</td>
+	<td><ul><li>It is simply a list of files in the extension, with one line for every file, terminated by semicolon.<li>It is only used by the dev-hub editors. Without it you cannot open or duplicate the extension in <b>dev-hub</b>.<li>If you do have it, only the files listed in wbfolder.wbl will be available in the <b>dev-hub</b> editors.<li>Also only the files in wbfolder.wbl will be copied if you make a copy of the extension or mashup (using <b>dev-hub</b>).</ul></td>
+  </tr>
+</table>
+## The extension at the Dev-Hub
+
+<img src="images/Grunt-Extension-03.png" width="500px" style="align: left;">
+Once we open the <i>GruntExtension</i> in the Dev-Hub we got access to edit the extension's files:
+<img src="images/Grunt-Extension-04.png" width="500px" style="align: left;">
