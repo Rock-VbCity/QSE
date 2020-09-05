@@ -98,9 +98,9 @@ This command creates our extension environment for us; it ask several questions 
   </tr>
 </table>
 <span style="color: #008000;">Finally, it prompts you: Do you want to make any changes to the above before continuing?</span> (y/N)<br>The following output appears in your command session:<br>
-<img src="images/grunt-init-QSE-output.png" width="500px" style="align: left;">
+<img src="images/grunt-init-QSE-output.png" width="500px" style="align: left;"><br>
 The GruntExtension has been created and ready to be enhanced with code, it appears as shown in the next image:
-<img src="images/Grunt-Extension-01.png" width="500px" style="align: left;">
+<img src="images/Grunt-Extension-01.png" width="500px" style="align: left;"><br>
 We can notice that some of the fields <b>grunt-init QSE</b> prompted us, already become part of the <i>GruntExtension</i>.
 
 These are some of the fields we entered plus aditional items that become part of the new extension:<ol>
@@ -112,7 +112,7 @@ These are some of the fields we entered plus aditional items that become part of
 
 ## After installation objects
 
-<img src="images/Grunt-Extension-02.png" width="500px" style="align: left;">
+<img src="images/Grunt-Extension-02.png" width="500px" style="align: left;"><br>
 The <b>grunt-init QSE</b> scaffolder applied the information we entered to create some folders and files, including the <i>GruntExtension.qext</i> file. Let's explain them:
 <table style="border: 1px solid black; border-collapse: collapse; text-align: left;" width="100%">
   <tr style="background-color: #e5e8e8; font: 13px Tahoma;">
@@ -173,6 +173,6 @@ The <b>grunt-init QSE</b> scaffolder applied the information we entered to creat
 </table>
 ## The extension at the Dev-Hub
 
-<img src="images/Grunt-Extension-03.png" width="500px" style="align: left;">
-Once we open the <i>GruntExtension</i> in the Dev-Hub we got access to edit the extension's files:
-<img src="images/Grunt-Extension-04.png" width="500px" style="align: left;">
+<img src="images/Grunt-Extension-03.png" width="500px" style="align: left;"><br>
+Once we open the <i>GruntExtension</i> in the Dev-Hub we got access to edit the extension's files:<br>
+<img src="images/Grunt-Extension-04.png" width="500px" style="align: left;"><br>
