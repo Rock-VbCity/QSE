@@ -108,7 +108,7 @@ These are some of the fields we entered plus aditional items that become part of
 <li>Its description: <i>grunt-init QSE test</i>
 <li>Its version: <i>version 1.0.0</i>
 <li>Its library icon.
-<li>Its icon.</ol>
+<li>Its icon.</ol></ol>
 
 ## After installation objects
 
