@@ -146,7 +146,9 @@ exports.template = function(grunt, init, done) {
     // generating wbfolder.wbl file
     var fs      = require('fs');
     for (const [key, value] of Object.entries(files)) {
-      fs.appendFileSync('wbfolder.wbl', key + ';\n');
+      if(key.substr(key.length -3) != "bat") {
+        fs.appendFileSync('wbfolder.wbl', key + ';\n');
+      }
     }
     // fs.appendFileSync('wbfolder.wbl', 'wbfolder.wbl;\n');
     fs = undefined;
