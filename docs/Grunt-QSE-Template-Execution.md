@@ -123,17 +123,28 @@ The <b>grunt-init QSE</b> scaffolder applied the information we entered to creat
   <tr style="font: 13px Arial; vertical-align: text-top;">
 	<td>bin</td>
 	<td>Folder</td>
-	<td></td>
+	<td><ul><li>Grunt implement its tasks with a set of contribution packages.<li>They are known as grunt-contrib.<li>The was often enhanced by their developers, so we do not check them in the GitHub respository.<li>Instead, we include batch script files to install them.<li>This folder contains those batch files:</ul>
+    Install-Dependencies.bat<br>
+    Install_Contrib_Clean.bat<br>
+    Install_Contrib_Concat.bat<br>
+    Install_Contrib_Copy.bat<br>
+    Install_Contrib_jshint.bat<br>
+    Install_Contrib_qunit.bat<br>
+    Install_Contrib_Text_Replace.bat<br>
+    Install_Contrib_Uglify.bat<br>
+    Install_Contrib_watch.bat<br>
+    Install_Grunt.bat
+    </td>
   </tr>
   <tr style="font: 13px Arial; vertical-align: text-top;">
 	<td>css</td>
 	<td>Folder</td>
-	<td></td>
+	<td><ul><li>This folder contains the Cascade Style Sheets (css) files required by this extension.<li>The file: <i>myAboutProperty.css</i> is include because the default extension deployed by <b>grunt-init QSE</b> implements it.</td>
   </tr>
   <tr style="font: 13px Arial; vertical-align: text-top;">
 	<td>js</td>
 	<td>Folder</td>
-	<td></td>
+	<td><ul><li>This folder contains the JavaScript (js) files referenced by this extension.<li>The <i>properties.js</i> is included by default, as it is implemented by the default extension deployed by <b>grunt-init QSE</b>.</ul></td>
   </tr>
   <tr style="font: 13px Arial; vertical-align: text-top;">
 	<td>GruntExtension.js</td>
