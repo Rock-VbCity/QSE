@@ -48,7 +48,7 @@ git clone https://github.com/Rock-VbCity/QSE QSE
 <img src="images/qse-GitHub-Repository-03.png" width="450px">
 <li> <b>Procedure Complete</b>; now you should resume in the section: 
 </ol>
-<span style="padding-left:30px;">[Testing your Grunt QSE Template](#testing-your-grunt-qse-template).</span>
+<span style="padding-left:30px;">[Testing your Grunt QSE Template](#testing-your-grunt-QSE-template).</span>
 
 ##### Install into your GitHub repositories parent folder
 
@@ -66,7 +66,7 @@ git clone https://github.com/Rock-VbCity/QSE QSE
 <img src="images/qse-Git-Repository-04.png" width="450px">
 <li> <b>Procedure Complete</b>; but Grunt is not ready to find the <i>QSE template</i> as yet, because we are missing a couple of steps, explained in the section</ol>
 
-<span style="padding-left:30px;">[Linking the .init-folde\QSE with your QSE installation folder](#linking-the-.init-folde\QSE-with-your-QSE-installation-folder).</span>
+<span style="padding-left:30px;">[Linking the .init-folder\QSE with your QSE installation folder](#linking-the-.init-folder\QSE-with-your-QSE-installation-folder).</span>
 
 ##### Install into your QlikSense Desktop folder
 
