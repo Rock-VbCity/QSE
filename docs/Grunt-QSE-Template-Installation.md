@@ -2,7 +2,7 @@
 
 This section explains the installation of the **QSE Grunt Template**, which is the main component in this repository. You should had read the [Grunt Prerequisites](docs/Grunt-Prerequisites.md) section, and followed the installation instructions described by the section [Grunt Installation](docs/Grunt-Installation.md).
 
-You should have an empty <b>.grunt-init</b> folder at your <b>C:\Users\&lt;user_account>\\.grunt-init</b>, as shown below:<br>
+You should have an empty <b>.grunt-init</b> folder at your <b>C:\Users\\&lt;user_account>\\.grunt-init</b>, as shown below:<br>
 <span style="padding:15px;">
 <img src="images/grunt-init-folder-01.png" width="400px" style="border:1px solid; padding:10px;"></span>
 

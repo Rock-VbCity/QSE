@@ -191,8 +191,13 @@ The <b>grunt-init QSE</b> scaffolder applied the information we entered to creat
   </tr>
 </table>
 
-## The extension at the Dev-Hub
+## The extension in the Dev-Hub
 
-<img src="images/Grunt-Extension-03.png" width="500px" style="align: left;"><br>
-Once we open the <i>GruntExtension</i> in the Dev-Hub we got access to edit the extension's files:<br>
+The new <i>extension</i>, "<b>GruntExtension</b>" is available for maintenance at the Qlik Dev Hub is you generated it in the folder: <pre>C:\Users\&lt;user_account>\Documents\Qlik\Sense\Extensions</pre>
+You can identify it by its name and icon.<br>
+The extension editor open once you click on its icon!  
+<br>
+<img src="images/Grunt-Extension-03.png" width="500px" style="align: left;"><br><br>
+Once we open the <i>GruntExtension</i> in the Dev-Hub we get access to all its files, we can then review the code and add new functionalities.<br>
+We explains at length the extension features at: [Grunt Extension Features](docs/Grunt-Extension-Features.md)<br><br>
 <img src="images/Grunt-Extension-04.png" width="500px" style="align: left;"><br>
