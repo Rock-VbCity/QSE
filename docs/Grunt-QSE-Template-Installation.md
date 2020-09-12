@@ -47,8 +47,9 @@ git clone https://github.com/Rock-VbCity/QSE QSE
 <li> The folder <b>.grunt-init</b> should looks like this:<br>
 <img src="images/qse-GitHub-Repository-03.png" width="450px">
 <li> <b>Procedure Complete</b>; now you should resume in the section: 
-</ol>
-<span style="padding-left:30px;">[Testing your Grunt QSE Template](#testing-your-grunt-QSE-template).</span>
+</ol><br>
+<span style="padding-left:30px;">.</span><br>
+[Testing your Grunt QSE Template](#testing-your-grunt-QSE-template).
 
 ##### Install into your GitHub repositories parent folder
 
