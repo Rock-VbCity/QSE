@@ -144,37 +144,45 @@ The <b>grunt-init QSE</b> scaffolder applied the information we entered to creat
   <tr style="font: 13px Arial; vertical-align: text-top;">
 	<td>js</td>
 	<td>Folder</td>
-	<td><ul><li>This folder contains the JavaScript (js) files referenced by this extension.<li>The <i>properties.js</i> is included by default, as it is implemented by the default extension deployed by <b>grunt-init QSE</b>.</ul></td>
+	<td><ul><li>This folder contains the JavaScript (js) files referenced by this extension.<li>The <i>properties.js</i> is included by default; it  implements the default properties of the <i>Extension</i> installed by <b>grunt-init QSE</b>.<li>We dedicate a section explaining the default attributes and properties of the extension installed by the <b>QSE Template</b>.</ul></td>
   </tr>
   <tr style="font: 13px Arial; vertical-align: text-top;">
 	<td>GruntExtension.js</td>
 	<td>js</td>
-	<td></td>
+	<td><ul><li>This is the <i>javascript</i> code of your extension.<li>It also references the <i>properties.js</i> script as well as the <i>jQuery</i> module.<li>We dedicate a section explaining the default attributes and properties of the extension installed by the <b>QSE Template</b>.</ul>
+    </td>
   </tr>
   <tr style="font: 13px Arial; vertical-align: text-top;">
 	<td>GruntExtension.png</td>
 	<td>png</td>
-	<td></td>
+	<td><ul><li>This is the <i>Preview</i> image installed by <b>grunt-init QSE</b>.<li>Any <i>Extension</i> you create with <b>grunt-init</b> features this image.<br><img src="images/GruntExtension.png" width="100px" style="align: left;">
+        </ul>
+    </td>
   </tr>
   <tr style="font: 13px Arial; vertical-align: text-top;">
 	<td>GruntExtension.qext</td>
 	<td>Qext</td>
-	<td><ul><li>The Qlik Sense extension file, or qext file.<li>It is in fact a JSON file and is used by Qlik Sense to identify the visualization.<li>It contains meta data used for the Library or Assets panel.<li>When deployed to Qlik Sense, the visualization is displayed in the Charts section of the Assets panel or Library panel.<li>All visualizations must contain at least one qext file and one JavaScript file.</ul></td>
+	<td><ul><li>The Qlik Sense extension file, or qext file.<li>It is in fact a JSON file and is used by Qlik Sense to identify the visualization.<li>It contains meta data used for the Library or Assets panel.<li>When deployed to Qlik Sense, the visualization is displayed in the Charts section of the Assets panel or Library panel.<li>All visualizations must contain at least one qext file and one JavaScript file.<li>The data in this file was collected from the answers you provided when running <b>grunt-init QSE <i>Extension_Name</i></b></ul></td>
   </tr>
   <tr style="font: 13px Arial; vertical-align: text-top;">
 	<td>Gruntfile.js</td>
 	<td>js</td>
-	<td></td>
+	<td><ul><li>This is the file defining the custom tasks available to your <i>Extension</i> as part of running <b>grunt-init QSE</b>.<li>They are not part of the <i>QlikSense Extension</i>.<li><b>Grunt</b> is a JavaScript task runner, a tool used to automatically perform frequent tasks such as minification, compilation, unit testing, and linting.<li>You can use <b>Grunt</b> to manage your <i>QlikSense Extension</i> in GitHub.
+    </ul>
+    </td>
   </tr>
   <tr style="font: 13px Arial; vertical-align: text-top;">
 	<td>logo.png</td>
 	<td>png</td>
-	<td></td>
+	<td><ul><li>This is part of the default extension installed by <b>grunt-init</b><li>It is the Google's logo.<br><img src="images/logo.png" width="100px" style="align: left;"></ul>
+	</td>
   </tr>
   <tr style="font: 13px Arial; vertical-align: text-top;">
 	<td>package.json</td>
 	<td>json</td>
-	<td></td>
+	<td><ul><li>This is a metadata files created when we ran the <b>grunt-init QSE</b> command.<li>It holds the dependencies of your Grunt project.<li>Actually, this folder contains your QlikSense Extension code as well as the Grunt project.<li>The Grunt project handles everything related to your QlikSense Extension GitHub repository managament.
+	</ul>
+    </td>
   </tr>
   <tr style="font: 13px Arial; vertical-align: text-top;">
 	<td>wbfolder.wbl</td>
