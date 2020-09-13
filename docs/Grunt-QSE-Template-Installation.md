@@ -113,9 +113,9 @@ git clone https://github.com/Rock-VbCity/QSE QSE
 
 <li> <b>Procedure Complete</b>; now you should resume in the section: 
 </ol>
-<span style="padding-left:30px;">[Linking the .init-folde\QSE with your QSE installation folder](#linking-the-.init-folder\qse-with-your-qse-installation-folder).</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Linking the .init-folder\QSE with your QSE installation folder](#linking-the-init-folderqse-with-your-qse-installation-folder)<br>
 
-### Linking the .init-folder\QSE with your QSE installation folder
+#### Linking the .init-folder\QSE with your QSE installation folder
 
 If you installed the <b>Grunt QSE template</b> at the <i>GitHub</i>'s or <i>Qlik</i>'s parent directories, you should create a <span style="color:blue">link</span> for the command <pre>grunt-init QSE</pre> to work, because <i>grunt-init</i> looks for the template at the folder:<pre>C:\Users\&lt;user_account>\\.grunt-init</pre>
 You should follow these steps to link the <b>QSE</b> Template folder:
