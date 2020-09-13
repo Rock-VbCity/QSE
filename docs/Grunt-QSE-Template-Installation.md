@@ -136,9 +136,7 @@ Type the command: <pre>mklink /J C:\Users\&lt;user_account>\.grunt-init\QSE C:\U
 
 Now you should resume this procedure at: [Testing your Grunt QSE Template](#testing-your-grunt-qse-template)
 
-</ul> 
-</ol>
-<span style="padding-left:58px;">[Testing your Grunt QSE Template](#testing-your-grunt-qse-template).</span>
+</ul></ol>
 
 ### Testing your Grunt QSE Template
 It is time to test the Grunt QSE Template, please follow these steps:
