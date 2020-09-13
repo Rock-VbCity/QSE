@@ -1,4 +1,4 @@
-# <img src="images/qs-logo-01.png" width="60px"><img src="images/grunt-03.png" width="60px"> QSE Grunt Template installation
+# <img src="images/qs-logo-01.png" width="60px"><img src="images/grunt-03.png" width="60px"> QSE Grunt Template Installation
 
 This section explains the installation of the **QSE Grunt Template**, which is the main component in this repository. You should had read the [Grunt Prerequisites](docs/Grunt-Prerequisites.md) section, and followed the installation instructions described by the section [Grunt Installation](docs/Grunt-Installation.md).
 
@@ -19,17 +19,13 @@ This procedure assume that your do not have GitHub installed in your Windows env
 <ol>
 	<li>Open a DOS command session.
 	<li>Navigate to the <b>.grunt-init</b> folder
-<pre>cd \users\&lt;user_account>\.grunt-init
-</pre>
+<pre>cd \users\&lt;user_account>\.grunt-init</pre>
     <li>If you have GitHub installed in your Windows environment, then you can execute its close command as shown:
-<pre>
-git clone https://github.com/Rock-VbCity/QSE QSE
-</pre>
+<pre>git clone https://github.com/Rock-VbCity/QSE QSE</pre>
     Otherwise you need to open the GitHub repository and download the QSE repository as follow:
 <li> Open your browser
 <li> Enter the below's URL into the browser's <i>address bar</i>
-<pre>https://github.com/Rock-VbCity/QSE
-</pre>
+<pre>https://github.com/Rock-VbCity/QSE</pre>
 <li> <i>Click</i> on the Download <b>Code</b> button (see image below)
 <li> <i>Click</i> on the <b>Download ZIP</b> option:<br>
 <img src="images/qse-GitHub-Repository-01.png" width="450px">
@@ -40,16 +36,15 @@ git clone https://github.com/Rock-VbCity/QSE QSE
 <li> Rename this folder to <b>QSE</b>
 <li> <i>Right Click</i> on the folder <i>QSE</i> and select the <b>Cut</b> option.
 <li> <i>Navigate</i> to the folder:
-<pre>\users\&lt;user_account>\.grunt-init
-</pre>
+<pre>\users\&lt;user_account>\.grunt-init</pre>
 <li> <i>Right-Click</i> and select the option <b>Paste</b>
 <li> <i>Navigate</i> to the <b>Downloads</b> folder and delete the <i>QSE-master.zip</i> and <i>QSE</i> folders.
 <li> The folder <b>.grunt-init</b> should looks like this:<br>
 <img src="images/qse-GitHub-Repository-03.png" width="450px">
 <li> <b>Procedure Complete</b>; now you should resume in the section: 
 </ol><br>
-<span style="padding-left:30px;">.</span><br>
-[Testing your Grunt QSE Template](#testing-your-grunt-qse-template).
+<span style="padding-left:30px;">
+[Testing your Grunt QSE Template](#testing-your-grunt-qse-template)</span><br>
 
 ##### Install into your GitHub repositories parent folder
 
