@@ -17,7 +17,7 @@ The procedure in this document is based on the *QlikSense Desktop Environment*
 
 These are the tools you may need:<ul>
 <li>The <b>Grunt QSE Template</b> installed and tested. You did this by running the procedures found in:<br>
-<a href="Grunt docs/Grunt-Installation.md">Grunt Installation</a>
+<a href="Grunt docs/Grunt-Installation.md">Grunt Installation</a> and<br>
 <a href="Grunt docs/Grunt-QSE-Template-Installation.md">Grunt QSE Template Installation</a>
 
 <li>Your favourite editor, it could be:<ol>
