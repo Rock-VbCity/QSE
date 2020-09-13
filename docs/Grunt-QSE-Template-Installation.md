@@ -43,8 +43,7 @@ This procedure assume that your do not have GitHub installed in your Windows env
 <img src="images/qse-GitHub-Repository-03.png" width="450px">
 <li> <b>Procedure Complete</b>; now you should resume in the section: 
 </ol><br>
-<span style="padding-left:30px;">
-[Testing your Grunt QSE Template](#testing-your-grunt-qse-template)</span><br>
+[Testing your Grunt QSE Template](#testing-your-grunt-qse-template)<br>
 
 ##### Install into your GitHub repositories parent folder
 
