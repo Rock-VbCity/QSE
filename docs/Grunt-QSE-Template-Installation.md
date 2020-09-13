@@ -132,10 +132,12 @@ Now you should resume this procedure at: [Testing your Grunt QSE Template](#test
  
 <li> <b>QlikSense Desktop folder:</b> <code>\users\&lt;user_account>\Documents\Qlik</code><br>
 Type the command: <pre>mklink /J C:\Users\&lt;user_account>\.grunt-init\QSE C:\Users\&lt;user_account>\Documents\Qlik\QSE</pre>
-<img src="images/MLink-QSE-02.png" width="550px">
+<img src="images/MLink-QSE-02.png" width="550px"><br>
+
+Now you should resume this procedure at: [Testing your Grunt QSE Template](#testing-your-grunt-qse-template)
+
 </ul> 
-</ul>
-</ul></ol>
+</ol>
 <span style="padding-left:58px;">[Testing your Grunt QSE Template](#testing-your-grunt-qse-template).</span>
 
 ### Testing your Grunt QSE Template
