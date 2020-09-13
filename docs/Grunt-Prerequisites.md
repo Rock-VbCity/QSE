@@ -7,9 +7,9 @@ We also included some Grunt tasks you may want to use when building your QlikSen
 
 These are the modules required by Grunt:
 <ul>
-<li><a href="https://nodejs.org/en/" target="_self">nodejs</a>; Node install the Node Package Manager: <b>npm</b>
-<li><a href="https://gruntjs.com/getting-started" target="_self">grunt-cli</a>; this link contains the grunt getting started guide, which install the <b>Grunt</b> Command Line Intepreter. 
-<li><a href="https://gruntjs.com/project-scaffolding" target="_self">grunt-init</a>; this is the grunt's projects scalfolding module; It will install a QlikSense Extension with some predefined properties.
+<li><a href="https://nodejs.org/en/" target="_blank">nodejs</a>; Node install the Node Package Manager: <b>npm</b>
+<li><a href="https://gruntjs.com/getting-started" target="_blank">grunt-cli</a>; this link contains the grunt getting started guide, which install the <b>Grunt</b> Command Line Intepreter. 
+<li><a href="https://gruntjs.com/project-scaffolding" target="_blank">grunt-init</a>; this is the grunt's projects scalfolding module; It will install a QlikSense Extension with some predefined properties.
 </ul>
 
 # Environment
