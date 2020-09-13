@@ -29,21 +29,22 @@ This procedure assume that your do not have GitHub installed in your Windows env
 <li> <i>Click</i> on the Download <b>Code</b> button (see image below)
 <li> <i>Click</i> on the <b>Download ZIP</b> option:<br>
 <img src="images/qse-GitHub-Repository-01.png" width="450px">
-<li> Open the folder with the <b>QSE-master.zip</b> file, and unzip the file, removing the <b>-master</b> tag
+<li> Open the folder with the <b>QSE-master.zip</b> file, and unzip the file, removing the <b>-master</b> tag.
 <img src="images/qse-GitHub-Repository-02.png" width="450px">
 <li> <i>Click</i> on the <b>Extract</b> button.
-<li> Navigate into the QSE folder (the sub-folder name is <b>QSE-master</b>
-<li> Rename this folder to <b>QSE</b>
+<li> Navigate into the QSE folder (the sub-folder name is <b>QSE-master</b>)
+<li> Rename this folder to <b>QSE</b>.
 <li> <i>Right Click</i> on the folder <i>QSE</i> and select the <b>Cut</b> option.
 <li> <i>Navigate</i> to the folder:
 <pre>\users\&lt;user_account>\.grunt-init</pre>
-<li> <i>Right-Click</i> and select the option <b>Paste</b>
+<li> <i>Right-Click</i> and select the option <b>Paste</b>.
 <li> <i>Navigate</i> to the <b>Downloads</b> folder and delete the <i>QSE-master.zip</i> and <i>QSE</i> folders.
 <li> The folder <b>.grunt-init</b> should looks like this:<br>
 <img src="images/qse-GitHub-Repository-03.png" width="450px">
 <li> <b>Procedure Complete</b>; now you should resume in the section: 
-</ol><br>
-[Testing your Grunt QSE Template](#testing-your-grunt-qse-template)<br>
+</ol>
+
+[Testing your Grunt QSE Template](#testing-your-grunt-qse-template)
 
 ##### Install into your GitHub repositories parent folder
 
