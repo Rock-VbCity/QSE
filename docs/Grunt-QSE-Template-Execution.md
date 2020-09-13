@@ -16,11 +16,11 @@ The procedure in this document is based on the *QlikSense Desktop Environment*
 ## Requirements
 
 These are the tools you may need:<ul>
-<li>The **QSE Grunt Template** installed and tested.
+<li>The <b>Grunt QSE Template</b> installed and tested.
 <li>Your favourite editor, it could be:<ol>
 <li> <a href="https://en.wikipedia.org/wiki/Sublime">Sublime</a>.
-<li><a href="https://en.wikipedia.org/wiki/Visual_Studio_Code">Visual Studio Code</a> also known as **VSCode**.
-<li>QlikSense Desktop's **Dev Hub**.</ol>
+<li><a href="https://en.wikipedia.org/wiki/Visual_Studio_Code">Visual Studio Code</a> also known as <b>VSCode</b>.
+<li>QlikSense Desktop's <b>Dev Hub</b>.</ol>
 <li>Your favourite Markdown editor (<a href="http://markdownpad.com/">MarkdownPad 2</a>); if you want to write the *Extension* Readme.Md file.
 <li><a href="https://en.wikipedia.org/wiki/GitHub">GitHub</a>; if you want to add your *Extension* to a repository.
 </ul>
