@@ -124,7 +124,7 @@ You should follow these steps to link the <b>QSE</b> Template folder:
 <li> Navigate to the <b>.grunt-init</b> folder:<pre> cd \Users\&lt;user_account>\.grunt-init</pre>
 <li> Now depending on the folder you installed the <b>QSE</b> Template repository, type the following command:
 <ul>
-<li> <b>GitHub repositories parent folder:</b> <code>\users\&lt;user_account>\GitHub</code>
+<li> <b>GitHub repositories parent folder:</b> <code>\users\&lt;user_account>\GitHub</code><br>
 Type the command: <pre>mklink /J C:\Users\&lt;user_account>\.grunt-init\QSE C:\Users\&lt;user_account>\GitHub\QSE</pre>
 <img src="images/MLink-QSE-01.png" width="550px">
 </ul></ol>
