@@ -12,6 +12,8 @@ Before installing the **QSE** Template repository you should decide the folder t
 * [Install into your GitHub repositories parent folder](#install-into-your-github-repositories-parent-folder).
 * [Install into your QlikSense Desktop folder](#Install-into-your-QlikSense-Desktop-folder).
 
+[Testing your Grunt QSE Template](#testing-your-grunt-qse-template)
+
 You need to install the **QSE** Template repository at one of these three folders. 
 
 ##### Install directly into the grunt init folder
