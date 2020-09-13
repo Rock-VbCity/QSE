@@ -1,15 +1,15 @@
 # <img src="images/grunt-03.png" width="60px"> Grunt prerequisites
-Grunt is a popular *JavaScript Task Runner* which is included with the *QlikSense Extension Template*; its function is to build and rebuild the extension based on the supplied Gruntfile.
+Grunt is a popular *JavaScript Task Runner* which is included with the *QlikSense Extension Template*; its function is to build and rebuild the extension based on the supplied Gruntfile. The Qlik Extension itself is part of the scaffolding features Grunt make available for us.
 
 We also included some Grunt tasks you may want to use when building your QlikSense extension, specially when preparing its code for distribution in GitHub.
 
 # Getting started
 
 These are the modules required by Grunt:
- 
-* [nodejs](https://nodejs.org/en/ "nodejs"); Node install the Node Package Manager, e.g. npm
-<li> [grunt-cli](https://gruntjs.com/getting-started); this link contains the grunt getting started guide)
-<li> [grunt-init](https://gruntjs.com/project-scaffolding); this is the grunt's projects scalfolding module
+<ul>
+<li><a href="https://nodejs.org/en/" target="_self">nodejs</a>; Node install the Node Package Manager: <b>npm</b>
+<li><a href="https://gruntjs.com/getting-started" target="_self">grunt-cli</a>; this link contains the grunt getting started guide, which install the <b>Grunt</b> Command Line Intepreter. 
+<li><a href="https://gruntjs.com/project-scaffolding" target="_self">grunt-init</a>; this is the grunt's projects scalfolding module; It will install a QlikSense Extension with some predefined properties.
 </ul>
 
 # Environment
