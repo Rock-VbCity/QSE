@@ -11,7 +11,7 @@ We could be working with:<ul>
 <li>QlikSense Cloud
 <li>QlikSense Enterprise</ul>
 
-Our procedure is based on the *QlikSense Environment*
+The procedure in this document is based on the *QlikSense Desktop Environment*
 
 ## Requirements
 
