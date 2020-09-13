@@ -90,8 +90,10 @@ git clone https://github.com/Rock-VbCity/QSE QSE
 <li> Enter the below's URL into the browser's <i>address bar</i>
 <pre>https://github.com/Rock-VbCity/QSE</pre>
 <li> <i>Click</i> on the Download <b>Code</b> button.
-<li> <i>Click</i> on the <b>Download ZIP</b> option: (see image below)
+<li> <i>Click</i> on the <b>Download ZIP</b> option: (see image below)<br>
+
 <img src="images/qse-GitHub-Repository-01.png" width="450px"><br>
+
 <li> Open the folder with the <b>QSE-master.zip</b> file, and unzip the file, removing the <b>-master</b> tag
 <img src="images/qse-GitHub-Repository-02.png" width="450px">
 <li> <i>Click</i> on the <b>Extract</b> button.
