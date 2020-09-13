@@ -45,9 +45,7 @@ This procedure assume that your do not have GitHub installed in your Windows env
 </ol>
 
 <span style="padding-left:30px;">
-
 [Testing your Grunt QSE Template](#testing-your-grunt-qse-template)
-
 </span>
 ##### Install into your GitHub repositories parent folder
 
