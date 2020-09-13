@@ -47,6 +47,7 @@ This procedure assume that your do not have GitHub installed in your Windows env
 <span style="padding-left:30px;">
 [Testing your Grunt QSE Template](#testing-your-grunt-qse-template)
 </span>
+
 ##### Install into your GitHub repositories parent folder
 
 We are assuming that you have GitHub installed in your Windows environment, and that you want to <b>Clone</b> the <i>Grunt QSE Template</i> into your GitHub's home directory:
