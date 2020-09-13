@@ -6,6 +6,8 @@ As the [Grunt Prerequisites](docs/Grunt-Prerequisites.md) explained, we have to 
 * [Installing grunt-cli](#installing-grunt-cli)
 * [Installing grunt-init](#installing-grunt-init)
 
+<b>Note</b>: You may Google on how to install Grunt on the Web, as we did when researching for the Extension, alternativaly, you may follow our notes.
+
 ### Installing [node.js](https://nodejs.org/en/ "nodejs")
 
 There is a plethora of tutorials documenting **node.js** installation, these are two of them:
@@ -13,7 +15,7 @@ There is a plethora of tutorials documenting **node.js** installation, these are
 * [How To Install Node.Js And NPM On Windows](https://phoenixnap.com/kb/install-node-js-npm-on-windows)
 * [nodejs.org Downloads and Installation](https://nodejs.org/en/download/)
 
-Either one will do, we followed the directions from the Phoenixnap web site.
+Either one will do, we followed the directions from the Phoenixnap web site (The first link shown above).
 
 ##### Step 1 Download Node.js Installer
 
@@ -60,7 +62,7 @@ Grunt and Grunt plugins are installed and managed via npm, the Node.js package m
 
 Because we are executing these procedures on Windows 10, you should start windows command prompt with **administrator** priviledges.
 
-Before setting up Grunt ensure that your npm is up-to-date by running <pre>npm update -g npm</pre> (this might require a Windows command session with **administrator** priviledges).
+Before setting up Grunt ensure that your npm is up-to-date by running <pre>npm update -g npm</pre><br>(this might require a Windows command session with **administrator** priviledges).
 
 ##### Installing CLI
 
@@ -89,7 +91,7 @@ please see the Getting Started guide:
 
 https://gruntjs.com/getting-started</pre>
 
-You do not need to worry, as we acomplish the local grunt installation when executing the **QSE Template**.
+You do not need to worry, as we acomplish the local grunt installation when executing the **QSE Grunt Template**.
 
 ### Installing [grunt-init](https://gruntjs.com/project-scaffolding)
 
@@ -100,7 +102,7 @@ Grunt-init is a scaffolding tool used to automate project creation. It will buil
 In order to use grunt-init, you'll want to install it globally.
 
 <pre>npm install -g grunt-init</pre>
-This will put the **grunt-init** command in your system path, allowing it to be run from anywhere.
+This will update your system path with the location of the **grunt-init** command, allowing it to be run from anywhere.
 
 **Notes:** You may need to use your command shell as Administrator to do this.
 
