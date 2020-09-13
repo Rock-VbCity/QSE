@@ -16,9 +16,10 @@ The procedure in this document is based on the *QlikSense Desktop Environment*
 ## Requirements
 
 These are the tools you may need:<ul>
-<li>The <b>Grunt QSE Template</b> installed and tested. You did this by running the procedures found in: </ul> 
-[Grunt Installation](docs/Grunt-Installation.md) and 
+<li>The <b>Grunt QSE Template</b> installed and tested. You did this by running the procedures found in: </ul><br>
+[Grunt Installation](docs/Grunt-Installation.md)
 [Grunt QSE Template Installation](docs/Grunt-QSE-Template-Installation.md)
+
 <ul>
 <li>Your favourite editor, it could be:<ol>
 <li> <a href="https://en.wikipedia.org/wiki/Sublime">Sublime</a>.
