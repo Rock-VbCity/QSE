@@ -44,7 +44,7 @@ This procedure assume that your do not have GitHub installed in your Windows env
 <li> <b>Procedure Complete</b>; now you should resume in the section: 
 </ol>
 
-[Testing your Grunt QSE Template](#testing-your-grunt-qse-template)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Testing your Grunt QSE Template](#testing-your-grunt-qse-template)
 
 ##### Install into your GitHub repositories parent folder
 
