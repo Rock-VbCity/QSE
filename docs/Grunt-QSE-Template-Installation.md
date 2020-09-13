@@ -94,8 +94,10 @@ git clone https://github.com/Rock-VbCity/QSE QSE
 
 <img src="images/qse-GitHub-Repository-01.png" width="450px"><br>
 
-<li> Open the folder with the <b>QSE-master.zip</b> file, and unzip the file, removing the <b>-master</b> tag
+<li> Open the folder with the <b>QSE-master.zip</b> file, and unzip the file, removing the <b>-master</b> tag:
+
 <img src="images/qse-GitHub-Repository-02.png" width="450px">
+
 <li> <i>Click</i> on the <b>Extract</b> button.
 <li> Navigate into the QSE folder (the sub-folder name is <b>QSE-master</b>
 <li> Rename this folder to <b>QSE</b>
@@ -106,7 +108,9 @@ git clone https://github.com/Rock-VbCity/QSE QSE
 <li> <i>Right-Click</i> and select the option <b>Paste</b>
 <li> <i>Navigate</i> to the <b>Downloads</b> folder and delete the <i>QSE-master.zip</i> and <i>QSE</i> folders.
 <li> The folder <b>\users\&lt;user_account>\Documents\Qlik</b> should looks like this:
+
 <img src="images/qse-GitHub-Repository-06.png" width="450px">
+
 <li> <b>Procedure Complete</b>; now you should resume in the section: 
 </ol>
 <span style="padding-left:30px;">[Linking the .init-folde\QSE with your QSE installation folder](#linking-the-.init-folder\qse-with-your-qse-installation-folder).</span>
