@@ -1,6 +1,6 @@
-# <img src="images/qs-logo-01.png" width="60px"><img src="images/grunt-03.png" width="60px"> QSE Grunt Template execution
+# <img src="images/qs-logo-01.png" width="60px"><img src="images/grunt-03.png" width="60px"> Grunt QSE Template execution
 
-This section explains how to use the **QSE Grunt Template** with a simple example, let's create the simpliest *QlikSense Extension* possible, which is the *Extension* that the **Grunt's QSE scaffolding** creates by default.
+This section explains how to use the **Grunt QSE Template** with a simple example, let's create the simpliest *QlikSense Extension* possible, which is the *Extension* that the **Grunt's QSE scaffolding** creates by default.
 
 <img src="images/grunt-scaffolding.png" width="400px">
 
