@@ -107,7 +107,7 @@ git clone https://github.com/Rock-VbCity/QSE QSE
 </pre>
 <li> <i>Right-Click</i> and select the option <b>Paste</b>
 <li> <i>Navigate</i> to the <b>Downloads</b> folder and delete the <i>QSE-master.zip</i> and <i>QSE</i> folders.
-<li> The folder <b>\users\&lt;user_account>\Documents\Qlik</b> should looks like this:
+<li> The folder <b>\users\&lt;user_account>\Documents\Qlik</b> should looks like this:<br>
 
 <img src="images/qse-GitHub-Repository-06.png" width="450px">
 
