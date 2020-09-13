@@ -9,7 +9,7 @@ This is a **Grunt-Init Template** that creates a QlikSense Extension with severa
 * grunt-init
 * QSE; the grunt-init scaffolding folder
 
-This link [Grunt Prerequisites](docs/Grunt-Prerequisites.md) explains what is required to install **Grunt** in your Windows machine.
+This link [Grunt Prerequisites](docs/Grunt-Prerequisites.md) explains with more details, what is required to install **Grunt** in your Windows machine.
 
 ## Installation
 

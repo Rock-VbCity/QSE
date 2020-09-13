@@ -49,7 +49,7 @@ git clone https://github.com/Rock-VbCity/QSE QSE
 <li> <b>Procedure Complete</b>; now you should resume in the section: 
 </ol><br>
 <span style="padding-left:30px;">.</span><br>
-[Testing your Grunt QSE Template](#testing-your-grunt-QSE-template).
+[Testing your Grunt QSE Template](#testing-your-grunt-qse-template).
 
 ##### Install into your GitHub repositories parent folder
 
