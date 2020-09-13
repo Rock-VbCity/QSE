@@ -20,7 +20,7 @@ We split the installation procedure in two separated documents:
 
 ## Execution
 
-Now that we installed the QlikSense's <b>QSE Grunt Template</b> let's build our first <b>GruntTemplate</b> by executing the <b>grunt-init</b> command; follow the instructions found at this document [QSE Grunt Template Execution](docs/Grunt-QSE-Template-Execution.md)
+Now that we installed the QlikSense's <b>QSE Grunt Template</b> let's build our first <b>GruntTemplate</b> by executing the <b>grunt-init</b> command; follow the instructions found at this document [Grunt QSE Template Execution](docs/Grunt-QSE-Template-Execution.md)
 
 
 
