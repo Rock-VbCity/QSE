@@ -15,6 +15,7 @@ Before installing the **QSE** Template repository you should decide the folder t
 You need to install the **QSE** Template repository at one of these three folders. 
 
 #### Install directly into the grunt init folder
+
 This procedure assume that your do not have GitHub installed in your Windows environment, so we show the steps to <b>clone</b> the repository directly into the <b>.grunt-init</b> folder we just created. 
 <ol>
 	<li>Open a DOS command session.
@@ -80,9 +81,10 @@ and, assuming you had installed Git in your Windows environment, then these are 
 git clone https://github.com/Rock-VbCity/QSE QSE
 </pre>
 <img src="images/qse-Git-Repository-05.png" width="450px"><br>
+
 <b>Procedure Complete</b>; but Grunt is not ready to find the <i>QSE template</i> as yet, because we are missing a couple of steps, explained in the section:<br>
 
-<span style="color:blue;">Linking the .init-folder\QSE with your QSE installation folder.</span><br><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Linking the .init-folder\QSE with your QSE installation folder](#linking-the-init-folderqse-with-your-qse-installation-folder)<br>
 
 <li> If you do not have <b>git</b> installed, you should continue the procedure by opening your browser.
 <li> Enter the below's URL into the browser's <i>address bar</i>
