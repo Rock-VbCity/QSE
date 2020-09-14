@@ -204,3 +204,7 @@ The extension editor open once you click on its icon!
 Once we open the <i>GruntExtension</i> in the Dev-Hub we get access to all its files, we can then review the code and add new functionalities.<br>
 We explains at length the extension features at: [Grunt Extension Features](docs/Grunt-Extension-Features.md)<br><br>
 <img src="images/Grunt-Extension-04.png" width="500px" style="align: left;"><br>
+
+## Conclusion
+
+Grunt-init creates a QlikSense extension for you, with extra features you do not get with the Dev Hub's Extension editor. 
