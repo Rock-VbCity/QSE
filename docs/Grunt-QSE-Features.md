@@ -1,11 +1,10 @@
 # <img src="images/qs-logo-01.png" width="60px"> Grunt QS Extension Features
 
-<table style="width:100%; border-collapse: collapse; padding:0;">
-<tr>
-  <td style="border-collapse: collapse; border-color: white; width:45%">
-  <img src="images/GruntExtension-v01.png" width="200px" style="padding: 0;">
-  </td>
-  <td style="border-collapse: collapse; border-color: white; vertical-align: text-top; text-align: left; margin-left: 0px; margin-right:0px; style="padding: 0px;">
-	Now that
-	</td>
-</table>
+<img src="images/GruntExtension-v01.png" width="250px"><br><br>
+Now that we generated our first <i>Grunt QlikSense Extension</i> let's explore its features, we will do that by adding our new extension to an empty <i>Sheet</i> in QlikSense Desktop!
+
+The <b>Grunt QS Extension template</b> implements all known properties organized in Sections; these properties are placeholders for you to use; you should keep the properties your extension requires and comment-out or delete those that are not required.
+
+## Extension Properties Sections
+
+
