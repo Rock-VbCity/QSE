@@ -287,7 +287,7 @@ define( [], function () {
 			},
 			myNewHeader2: {
 				type: "items",
-				label: "Text Compoents",
+				label: "Text Components",
 				items: {
 					myText: myText,
 					myFontSize: myFontSize,
