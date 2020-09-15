@@ -18,10 +18,11 @@ We split the installation procedure in two separated documents:
 * [Grunt Installation](docs/Grunt-Installation.md) explains the installation of the components required by **Grunt** and the **QSE Grunt Template**.
 * [Grunt QSE Template Installation](docs/Grunt-QSE-Template-Installation.md) explains installing the QSE Template in your Windows workstation.
 
-## Execution
+## Scaffolding Execution
 
 Now that we installed the QlikSense's <b>QSE Grunt Template</b> let's build our first <b>GruntTemplate</b> by executing the <b>grunt-init</b> command; follow the instructions found at this document [Grunt QSE Template Execution](docs/Grunt-QSE-Template-Execution.md)
 
+## Extension Features
 
 
 =============
