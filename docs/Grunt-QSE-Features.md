@@ -5,7 +5,15 @@ Now that we generated our first <i>Grunt QlikSense Extension</i> let's explore i
 
 The <b>Grunt QS Extension template</b> implements all known properties organized in Sections; these properties are placeholders for you to use; you should keep the properties your extension requires and comment-out or delete those that are not required.
 
-We will not indulge in explaining each property in this document.
+We will not indulge in explaining each property in this document, please refer to the [References](docs/References.md) document to access link to the relevant home pages for each piece of technology implemented.
+
+The **Grunt QS Extension** features three very important files:
+
+* **properties.js**; This file includes the definitions for all the properties implemented by the *Extension*; you should work with this file to tailor the *Extension* to your needs.
+
+* **GruntExtension.js**; This is actually the **&lt;Extension_Name>.js** file which implements all the logic of your *Extension*; you should work a lot with this file.
+
+* **ccs folder**; This folder contains all the Cascade Style Sheets referenced by the *Extension*; It initially contains the file **myAboutProperty.css** which is referenced by the **About Property**.
 
 ## Extension Properties Sections
 
@@ -36,6 +44,13 @@ These are the properties defined in each section:
 <td></td>
 <td></td>
 <td></td>
+</tr>
+<tr style="font: 11px Calibri; vertical-align: text-top;">
+<td></td>
+<td>Show Titles</td>
+<td></td>
+<td></td>
+<td>showTitles</td>
 </tr>
 <tr style="font: 11px Calibri; vertical-align: text-top;">
 <td></td>
@@ -247,7 +262,9 @@ These are the properties defined in each section:
 <td></td>
 </tr>
 </table>
-<b>Notes</b>:<br><br>
+
+## Notes
+
 <b>Property</b>
 <ul>
 <li><i>Label</i> describe free-form text appearing on the property panel; this is the way to include cues to the users about a particular property.
@@ -256,9 +273,29 @@ These are the properties defined in each section:
 </ul>
 <b>Type</b>
 <ul>
-<li>These are the variable types of the property.
+<li>These are the variable types for each property.
 <li>They could be: <i>array</i>, <i>boolean</i>, <i>integer</i>, <i>number</i>, <i>string</i> ...
+<li>If a property returns an object or it displays information to the user, they do not have a <b>Type</b>; this is the case for the following components: <i>textarea</i>, <i>link</i>, <i>component</i>
+<li>There are some properties showing text (<i>text labels</i>) like labels, decorating the property with messages to the users, they do not have a type.
 </ul>
 <b>Component</b>
-
+<ul>
+<li>There are properties having a Component attribute assigned to them.
+<li>These Components are predefined behaviours, they actually handle complex properties renditions.
+<li>These Components are: <i>align-matrix</i>, <i>buttongroup</i>, <i>color-picker</i>, <i>dropdown</i>, <i>link</i>, <i>media</i>, <i>switch</i>, <i>text</i>, <i>textarea</i>
+</ul>
 <b>Ref</b>
+<ul>
+<li>These are the names of the variable objects receiving the value returned by the property upon user interaction.
+<li>No all properties return a value as we can gather from the table above.
+</ul>
+
+## Show Titles
+
+<ul>
+<li>This is an special boolean property.
+<li>It handle the sheet's title behaviour.
+</ul>
+
+## About property
+
