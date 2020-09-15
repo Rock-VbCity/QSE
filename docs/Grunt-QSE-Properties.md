@@ -1,19 +1,15 @@
-# <img src="images/qs-logo-01.png" width="60px"> Grunt QS Extension Features
+# <img src="images/qs-logo-01.png" width="60px"> Grunt QS Extension Properties
 
 <img src="images/GruntExtension-v01.png" width="250px"><br><br>
-Now that we generated our first <i>Grunt QlikSense Extension</i> let's explore its features, we will do that by adding our new extension to an empty <i>Sheet</i> in QlikSense Desktop!
+Now that we generated our first <i>Grunt QlikSense Extension</i> let's explore its properties, we will do that by adding our new extension to an empty <i>Sheet</i> in QlikSense Desktop!
 
 The <b>Grunt QS Extension template</b> implements all known properties organized in Sections; these properties are placeholders for you to use; you should keep the properties your extension requires and comment-out or delete those that are not required.
 
 We will not indulge in explaining each property in this document, please refer to the [References](docs/References.md) document to access link to the relevant home pages for each piece of technology implemented.
 
-The **Grunt QS Extension** features three very important files:
+## Properties physical file
 
-* **properties.js**; This file includes the definitions for all the properties implemented by the *Extension*; you should work with this file to tailor the *Extension* to your needs.
-
-* **GruntExtension.js**; This is actually the **&lt;Extension_Name>.js** file which implements all the logic of your *Extension*; you should work a lot with this file.
-
-* **ccs folder**; This folder contains all the Cascade Style Sheets referenced by the *Extension*; It initially contains the file **myAboutProperty.css** which is referenced by the **About Property**.
+The file **properties.js** located in the **js** folder define the *Extension* properties, feel free to amend this file to tailor the properties required by you *Extension*.
 
 ## Extension Properties Sections
 
@@ -294,8 +290,16 @@ These are the properties defined in each section:
 
 <ul>
 <li>This is an special boolean property.
-<li>It handle the sheet's title behaviour.
+<li>It handles the sheet's title behaviour.
 </ul>
 
 ## About property
 
+This property is expected to contain information related to your *Extension*, such as a logo-icon, its version number and the url of your company.
+
+The object **myAboutSection** in the file **properties.js** define those attributes, configuring your *Extension*'s About property requires you to perform these updates:
+<ol>
+<li>Copy a file named logo.png to the QlikSense's *Content Default* folder if you are working with QlikSense Desktop, or upload the file to the *Content* container if you are working with QlikSense Cloud or QlikSense Enterprise.
+<li>Update your company details at the **myAboutlink** object inthe **properties.js** file.
+</ol>
+<img src="images/Grunt-Extension-About-01.png">
