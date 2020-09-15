@@ -22,8 +22,9 @@ We split the installation procedure in two separated documents:
 
 Now that we installed the QlikSense's <b>QSE Grunt Template</b> let's build our first <b>GruntTemplate</b> by executing the <b>grunt-init</b> command; follow the instructions found at this document [Grunt QSE Template Execution](docs/Grunt-QSE-Template-Execution.md)
 
-## Extension Features
+## Extension Properties
 
+The following document [Grunt QSE Properties](docs/Grunt-QSE-Properties.md) explains the initial properties pre-defined by the *Grunt QSE Template*
 
 =============
 
