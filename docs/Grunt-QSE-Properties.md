@@ -290,7 +290,7 @@ These are the properties defined in each section:
 
 <ul>
 <li>This is an special boolean property.
-<li>It handles the sheet's title behaviour.
+<li>It handles the sheet's title behaviour by showing/hiding the sheet's titles.
 </ul>
 
 ## About property

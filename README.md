@@ -26,34 +26,12 @@ Now that we installed the QlikSense's <b>QSE Grunt Template</b> let's build our 
 
 The following document [Grunt QSE Properties](docs/Grunt-QSE-Properties.md) explains the initial properties pre-defined by the *Grunt QSE Template*
 
-=============
+## Visualization Extension Code
 
-If you haven't already done so, install [grunt-init](http://gruntjs.com/project-scaffolding "grunt-init").
+The *Visualization Extension* code is located in the file **&lt;Extension_Name>.js**
 
-Once grunt-init is installed, place this template in your `~/.grunt-init/` directory. It's recommended that you use git to clone this template into that directory, as follows:
-```
-git clone https://github.com/gruntjs/grunt-init-gruntfile.git ~/.grunt-init/QSE
-```
-## Usage
-<ol>
-<li> Create the directory for your extension at:<br><br>
-<code>
-C:\Users\<user-login>\Documents\Qlik\Sense\Extensions\<Extension_Name>
-</code></li><br>
+There are two approaches to implement *Visualization Extensions*:
+* The *Paint* method rendering the *Extension* content.
+* Using AngularJS in *Visualization Extensions*.
 
-<li> Open a CMD (old faithful DOS) session and navigate to the extension's folder (you can create its folder using DOS as well)
-```
-cd C:\Users\<user-login>\Documents\Qlik\Sense\Extensions\<Extension_Name>
-```
-**2b.** or, if you want to create the extesion's folder with DOS
-```
-cd C:\Users\<user-login>\Documents\Qlik\Sense\Extensions
-mkdir <Extension_Name>
-cd <Extension_Name>
-```
-**3.** Type the command:
-```
-grunt-init QSE
-```
-_Note that this template will generate files in the current directory, so be sure to change to a new directory first if you don't want to overwrite existing files._
-</ol>
+This *Extension* is based in the former method, it uses the *Paint* method to render its content.
