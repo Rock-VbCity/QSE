@@ -30,8 +30,9 @@ The following document [Grunt QSE Properties](docs/Grunt-QSE-Properties.md) expl
 
 The *Visualization Extension* code is located in the file **&lt;Extension_Name>.js**
 
-There are two approaches to implement *Visualization Extensions*:
-* The *Paint* method rendering the *Extension* content.
-* Using AngularJS in *Visualization Extensions*.
+There are two approaches to implement *Visualization Extensions:<br>
+<ul>
+<li> The *Paint* method rendering the *Visualization Extension* content.
+<li> Using AngularJS in *Visualization Extensions*.
 
-This *Extension* is based in the former method, it uses the *Paint* method to render its content.
+This *Visualization Extension* is based in the former method, it uses the *Paint* method to render its content.
