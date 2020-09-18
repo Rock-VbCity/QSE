@@ -1,8 +1,26 @@
 module.exports = function(grunt) {
 
   'use strict';
-//  var g = grunt.file.readJSON('package.json');
-//
+
+  // increase package version
+  var pkg = grunt.file.readJSON('package.json');
+  var VERSION = pkg.version;
+  pkg.version = pkg.version.split(".");
+  var subversion = pkg.version.pop();
+  subversion++;
+  pkg.version.push(subversion);
+  pkg.version = pkg.version.join(".");
+  pkg.PREVIOUS_VERSION = VERSION;
+  grunt.file.write('package.json', JSON.stringify(pkg, null, 2));  
+
+  // update qext version
+  var qext = grunt.file.readJSON(pkg.name + '.qext');
+  var qdes = qext.description;
+  var qdesc = qdes.split(";");
+  qext.description = qdesc[0] + "; version " + pkg.version;
+  qext.version = pkg.version;
+  grunt.file.write(pkg.name + '.qext', JSON.stringify(qext, null, 2));
+
 // Project configuration.
   grunt.initConfig({
     // Metadata.
@@ -26,6 +44,14 @@ module.exports = function(grunt) {
           to: 'properties.min'
         } ]
       },
+      version: {
+        src: [ 'js/properties.js' ],
+        dest: [ 'js/properties.js' ],
+        replacements: [ {
+          from: 'label: "<%= pkg.PREVIOUS_VERSION %>"', 
+          to: 'label: "<%= pkg.version %>"'
+        }]
+      },      
     },
     concat: {
       options: {
@@ -97,7 +123,8 @@ module.exports = function(grunt) {
       },
       src: {
         files: [ {expand: true,
-                  src: ['js/**', '<%= pkg.name %>.*' ],
+                  filter: 'isFile',
+                  src: ['css/**', 'js/**', '<%= pkg.name %>.*' ],
                   dest: 'src'} ]
       },
       build: {
@@ -113,7 +140,7 @@ module.exports = function(grunt) {
   });
 
   // These plugins provide necessary tasks.
-  grunt.loadNpmTasks('grunt-contrib-clean');
+  grunt.loadNpmTasks('grunt-contrib-clean');   # delete files or directories
   grunt.loadNpmTasks('grunt-contrib-concat');
   grunt.loadNpmTasks('grunt-contrib-uglify');
   grunt.loadNpmTasks('grunt-contrib-qunit');
@@ -125,7 +152,8 @@ module.exports = function(grunt) {
   // Default task.
   // grunt.registerTask('default', ['jshint', 'qunit', 'clean', 'concat', 'uglify']);
   grunt.registerTask('srcGrunt', ['copy:src_Grunt']);
-  grunt.registerTask('src', ['copy:src']);
+  grunt.registerTask('src', [ 'replace:version',
+                              'copy:src']);
   grunt.registerTask('build', ['jshint:src', 
                                'clean', 
                                'concat:build', 
