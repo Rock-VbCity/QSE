@@ -33,7 +33,12 @@ module.exports = function(grunt) {
     
     // Task configuration.
     clean: {
-      files: ['dist']
+      build: {
+               src: ['dist']
+      },
+      src: {
+               src: ['src']
+      }
     },
     replace: {
       build: {
@@ -116,11 +121,6 @@ module.exports = function(grunt) {
       },
     },
     copy: {
-      src_Grunt: {
-        files: [ {expand: true, 
-                  src: ['js/**', 'bin/**', '<%= pkg.name %>.*', 'Gruntfile.js', 'wbfolder.wbl', 'package.json', 'package-lock.json'], 
-                  dest: 'srcGrunt'} ]
-      },
       src: {
         files: [ {expand: true,
                   filter: 'isFile',
@@ -140,22 +140,25 @@ module.exports = function(grunt) {
   });
 
   // These plugins provide necessary tasks.
-  grunt.loadNpmTasks('grunt-contrib-clean');   # delete files or directories
-  grunt.loadNpmTasks('grunt-contrib-concat');
+  grunt.loadNpmTasks('grunt-contrib-clean');   // delete files or directories
+  grunt.loadNpmTasks('grunt-contrib-concat');  // including the banner in js files
   grunt.loadNpmTasks('grunt-contrib-uglify');
   grunt.loadNpmTasks('grunt-contrib-qunit');
-  grunt.loadNpmTasks('grunt-contrib-jshint');
+  grunt.loadNpmTasks('grunt-contrib-jshint');  // code quality 
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-contrib-copy');
-  grunt.loadNpmTasks('grunt-text-replace'); //  ==> QSE template
+  grunt.loadNpmTasks('grunt-text-replace');    //  ==> QSE template
+  grunt.loadNpmTasks('grunt-contrib-cssmin');  //  minimize ccs
   
   // Default task.
   // grunt.registerTask('default', ['jshint', 'qunit', 'clean', 'concat', 'uglify']);
-  grunt.registerTask('srcGrunt', ['copy:src_Grunt']);
+
   grunt.registerTask('src', [ 'replace:version',
+                              'clean:src',
                               'copy:src']);
+
   grunt.registerTask('build', ['jshint:src', 
-                               'clean', 
+                               'clean:build', 
                                'concat:build', 
                                'copy:build', 
                                'uglify:build',

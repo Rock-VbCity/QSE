@@ -18,11 +18,11 @@ We split the installation procedure in two separated documents:
 * [Grunt Installation](docs/Grunt-Installation.md) explains the installation of the components required by **Grunt** and the **QSE Grunt Template**.
 * [Grunt QSE Template Installation](docs/Grunt-QSE-Template-Installation.md) explains installing the QSE Template in your Windows workstation.
 
-## Scaffolding Execution
+## Grunt Scaffolding Execution
 
 Now that we installed the QlikSense's <b>QSE Grunt Template</b> let's build our first <b>GruntTemplate</b> by executing the <b>grunt-init</b> command; follow the instructions found at this document [Grunt QSE Template Execution](docs/Grunt-QSE-Template-Execution.md)
 
-## Extension Properties
+## Visualization Extension Properties
 
 The following document [Grunt QSE Properties](docs/Grunt-QSE-Properties.md) explains the initial properties pre-defined by the *Grunt QSE Template*
 
@@ -30,9 +30,9 @@ The following document [Grunt QSE Properties](docs/Grunt-QSE-Properties.md) expl
 
 The *Visualization Extension* code is located in the file **&lt;Extension_Name>.js**
 
-There are two approaches to implement *Visualization Extensions:<br>
+There are two approaches to implement *Visualization Extensions:
 <ul>
-<li> The *Paint* method rendering the *Visualization Extension* content.
-<li> Using AngularJS in *Visualization Extensions*.
+<li> The <i>Paint</i> method rendering the <i>Visualization Extension</i> content.
+<li> Using AngularJS in <i>Visualization Extensions</i>.
 
 This *Visualization Extension* is based in the former method, it uses the *Paint* method to render its content.

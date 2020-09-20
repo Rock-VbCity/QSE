@@ -10,3 +10,6 @@ call bin\install_contrib_watch.bat
 
 call bin\install_contrib_copy.bat
 call bin\install_contrib_text_replace.bat
+call bin\install_contrib_cssmin.bat
+
+call bin\install_contrib_compress.bat

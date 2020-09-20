@@ -89,7 +89,8 @@ exports.template = function(grunt, init, done) {
         'grunt-contrib-nodeunit': '^2.1.0',
         'grunt-contrib-qunit': '^4.0.0',
         'grunt-contrib-uglify': '^4.0.1',
-        'grunt-contrib-watch': '^1.1.0'
+        'grunt-contrib-watch': '^1.1.0',
+        'grunt-contrib-cssmin': '^3.0.0'
       };
 /*
       if (props.dom) {
@@ -104,18 +105,23 @@ exports.template = function(grunt, init, done) {
       }
 */
       // Generate package.json file, used by npm and grunt.
-      init.writePackageJSON('package.json', {
+      // init.writePackageJSON('package.json', {
+      var rtPkgJson = {
         name: props.name,
         title: props.description,
         version: '1.0.0',
         license: props.license,
         description: props.description,
         main: props.name + '.js',
-        author_name: props.author_name,
+        author: {
+          name: props.author_name
+        },
         homepage: props.homepage,
         node_version: '>= 0.10.0',
         devDependencies: devDependencies
-      });
+      };
+
+      grunt.file.write('package.json', JSON.stringify(rtPkgJson, null, 2));
     }
 
     // QlikSense /////////////////////////////////////////////////////////////////////////
