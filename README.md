@@ -20,11 +20,15 @@ We split the installation procedure in two separated documents:
 
 ## Grunt Scaffolding Execution
 
-Now that we installed the QlikSense's <b>QSE Grunt Template</b> let's build our first <b>GruntTemplate</b> by executing the <b>grunt-init</b> command; follow the instructions found at this document [Grunt QSE Template Execution](docs/Grunt-QSE-Template-Execution.md)
+Now that we installed the QlikSense's <b>QSE Grunt Template</b> let's build our first  <i>QlikSense Visualization Extension</i> by executing the <b>grunt-init</b> command; Let's follow the instructions found at this document [Grunt QSE Template Execution](docs/Grunt-QSE-Template-Execution.md).
 
 ## Visualization Extension Properties
 
-The following document [Grunt QSE Properties](docs/Grunt-QSE-Properties.md) explains the initial properties pre-defined by the *Grunt QSE Template*
+The **Grunt Scaffolding** install a *QlikSense Visualization Extension*, with several pre-defined properties; we basically coded into the template several of the Visualization Extensions found in the Qlik Community and Qlik Help.
+  
+The following document [Grunt QSE Properties](docs/Grunt-QSE-Properties.md) explains them.
+
+We consider it will be easier for you to amend these properties to your needs, and remove or comment out those that you do not need.
 
 ## Visualization Extension Code
 
