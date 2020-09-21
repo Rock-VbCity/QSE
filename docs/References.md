@@ -23,3 +23,19 @@
 
 * [Visualization Extension API: Paint method](https://help.qlik.com/en-US/sense-developer/September2020/Subsystems/APIs/Content/Sense_ClientAPIs/extensions-api-reference.htm)
 * [Using AngularJS in visualization extensions](https://help.qlik.com/en-US/sense-developer/June2020/Subsystems/Extensions/Content/Sense_Extensions/extensions-angular-introduction.htm)
+
+### Grunt Tasks Contributions
+
+These are the Grunt's Contributions required by the tasks managing our releases
+
+* [grunt-contrib-clean v2.0.0](https://www.npmjs.com/package/grunt-contrib-clean)
+* [grunt-contrib-cssmin v3.0.0](https://www.npmjs.com/package/grunt-contrib-cssmin)
+* [grunt-contrib-compress v1.6.0](https://www.npmjs.com/package/grunt-contrib-compress)
+* [grunt-contrib-concat v1.0.1](https://www.npmjs.com/package/grunt-contrib-concat)
+* [grunt-contrib-copy v1.0.0](https://www.npmjs.com/package/grunt-contrib-copy)
+* [grunt-contrib-less v2.0.0](https://www.npmjs.com/package/grunt-contrib-less)
+* []()
+* []()
+* []()
+* [grunt-text-replace](https://www.npmjs.com/package/grunt-text-replace)
+* 
