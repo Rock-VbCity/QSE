@@ -207,4 +207,6 @@ We explains at length the extension features at: [Grunt Extension Features](docs
 
 ## Conclusion
 
-Grunt-init creates a QlikSense extension for you, with extra features you do not get with the Dev Hub's Extension editor. 
+Grunt-init creates a *QlikSense Visualization Extension* for you, with pre-define properties you do not get with the **Dev Hub's Extension editor**. 
+
+Additionally, it also includes a set of **Grunt Tasks** that will assist you distributing your extension.
