@@ -51,3 +51,5 @@ The **QSE Grunt Template for QlikSense** includes some pre-define Grunt tasks th
 	* &lt;extension_name>.zip
 	* &lt;extension_name>-min.zip
 	* &lt;extension_name>-mix.zip
+
+Please read this document explaining them [Grunt QSE Pre-Defined Tasks](Grunt-QSE-PreDefined-Tasks.md).
