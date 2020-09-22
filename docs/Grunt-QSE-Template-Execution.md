@@ -131,6 +131,7 @@ The <b>grunt-init QSE</b> scaffolder applied the information we entered to creat
     Install_Contrib_Clean.bat<br>
     Install_Contrib_Concat.bat<br>
     Install_Contrib_Copy.bat<br>
+	Install_Contrib_cssmin.bat<br>
     Install_Contrib_jshint.bat<br>
     Install_Contrib_qunit.bat<br>
     Install_Contrib_Text_Replace.bat<br>
