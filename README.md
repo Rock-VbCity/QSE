@@ -1,6 +1,6 @@
 # QSE Grunt Template for QlikSense
 
-This is a **Grunt-Init Template** that creates a QlikSense Extension with several features, including a companion *Gruntfile.js* implementing some tasks to manage your extension's build process and storing it at your **GitHub** repository.
+This is a **Grunt-Init Template** that creates a QlikSense Visualization Extension with several features, including a companion *Gruntfile.js* giving you some tasks to manage your extension's build process and storing it at your **GitHub** repository.
 
 ## Prerequisites
 
@@ -38,5 +38,16 @@ There are two approaches to implement *Visualization Extensions:
 <ul>
 <li> The <i>Paint</i> method rendering the <i>Visualization Extension</i> content.
 <li> Using AngularJS in <i>Visualization Extensions</i>.
-
+</ul>
 This *Visualization Extension* is based in the former method, it uses the *Paint* method to render its content.
+
+## Grunt Tasks
+
+The **QSE Grunt Template for QlikSense** includes some pre-define Grunt tasks that could assist your development workflow by automating these tasks:
+
+* **src** source folder updates.
+* Updates the version number in your *json*, *qext* and *about* property.
+* It generates the **dist** folder containing 3 distribution files:
+	* &lt;extension_name>.zip
+	* &lt;extension_name>-min.zip
+	* &lt;extension_name>-mix.zip
