@@ -28,14 +28,15 @@
 
 These are the Grunt's Contributions required by the tasks managing our releases
 
-* [grunt-contrib-clean v2.0.0](https://www.npmjs.com/package/grunt-contrib-clean)
-* [grunt-contrib-cssmin v3.0.0](https://www.npmjs.com/package/grunt-contrib-cssmin)
-* [grunt-contrib-compress v1.6.0](https://www.npmjs.com/package/grunt-contrib-compress)
-* [grunt-contrib-concat v1.0.1](https://www.npmjs.com/package/grunt-contrib-concat)
-* [grunt-contrib-copy v1.0.0](https://www.npmjs.com/package/grunt-contrib-copy)
+* [grunt-contrib-clean v2.0.0](https://www.npmjs.com/package/grunt-contrib-clean); delete files and directories.
+* [grunt-contrib-cssmin v3.0.0](https://www.npmjs.com/package/grunt-contrib-cssmin); minimize *Cascade Style Sheet* files.
+* [grunt-contrib-compress v1.6.0](https://www.npmjs.com/package/grunt-contrib-compress); zip distribution folders. 
+* [grunt-contrib-concat v1.0.1](https://www.npmjs.com/package/grunt-contrib-concat); concatenate files, and merge in the banner of *js* and *css* files.
+* [grunt-contrib-copy v1.0.0](https://www.npmjs.com/package/grunt-contrib-copy); we use it when copying files and directories.
+* [grunt-contrib-jshint v2.1.0](https://www.npmjs.com/package/grunt-contrib-jshint); It flags suspicious code in your JavaScript files.
 * [grunt-contrib-less v2.0.0](https://www.npmjs.com/package/grunt-contrib-less)
-* []()
-* []()
-* []()
-* [grunt-text-replace](https://www.npmjs.com/package/grunt-text-replace)
+* [grunt-contrib-qunit v4.0.0](https://github.com/gruntjs/grunt-contrib-qunit); runs unit tests in your code; we are not using it, but it is ready for you to implement. **NOT IN USE**
+* [grunt-contrib-uglify v5.0.0](https://www.npmjs.com/package/grunt-contrib-uglify); uglify tasks basically reduce your JavaScript files  to single lines code.
+* [grunt-contrib-watch v1.1.0](https://www.npmjs.com/package/grunt-contrib-watch); It run tasks when a predefined object in the files system change. **NOT IN USE**
+* [grunt-text-replace](https://www.npmjs.com/package/grunt-text-replace); tasks replacing text in your code reference this contribution.
 * 
