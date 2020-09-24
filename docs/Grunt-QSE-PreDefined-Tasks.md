@@ -24,7 +24,7 @@ You should get an output like this one:<br><br>
 </ol>
 **We are ready to use grunt task runner**.
 
-## Grunt Tasks
+## Grunt Contributions Tasks
 
 If you type <code>grunt -help</code> you will get a list of all the tasks available in your installation of **Grunt**. These tasks are:<br><br>
 
@@ -32,6 +32,7 @@ If you type <code>grunt -help</code> you will get a list of all the tasks availa
   <tr style="background-color: #e5e8e8; font: 13px Tahoma;">
     <th>Tasks</th>
     <th>Description</th>
+	<th>Comments</th>
   </tr>
   <tr style="font: 13px Arial; vertical-align: text-top;">
     <td>
@@ -39,6 +40,9 @@ If you type <code>grunt -help</code> you will get a list of all the tasks availa
     </td><td>
 		Custom task.
     </td>
+	<td>
+		Test task.
+	</td>
   </tr>
   <tr style="font: 13px Arial; vertical-align: text-top;">
 	<td>
@@ -46,12 +50,19 @@ If you type <code>grunt -help</code> you will get a list of all the tasks availa
     </td><td>
 		Clean files and folders. *
     </td>
+	<td>&diams;&nbsp;src
+		&diams;&nbsp;build
+    </td>
   </tr>
   <tr style="font: 13px Arial; vertical-align: text-top;">
 	<td>
         concat  
     </td><td>
-		Concatenate files. *
+		Concatenate files. *<br>
+		Concatenate banners
+	</td>
+	<td>
+		&diams;&nbsp;build		
 	</td>
   </tr>
   <tr style="font: 13px Arial; vertical-align: text-top;">
@@ -60,6 +71,9 @@ If you type <code>grunt -help</code> you will get a list of all the tasks availa
     </td><td>
 		Minify files with UglifyJS. *
 	</td>
+	<td>
+		&diams;&nbsp;build		
+	</td>
   </tr>
   <tr style="font: 13px Arial; vertical-align: text-top;">
 	<td>
@@ -67,12 +81,16 @@ If you type <code>grunt -help</code> you will get a list of all the tasks availa
     </td><td>
 		Run QUnit unit tests in a headless Chrome instance. *
 	</td>
+	<td></td>
   </tr>
   <tr style="font: 13px Arial; vertical-align: text-top;">
 	<td>
         jshint  
     </td><td>
 		Validate files with JSHint. *
+	</td>
+	<td>
+		&diams;&nbsp;build		
 	</td>
   </tr>
   <tr style="font: 13px Arial; vertical-align: text-top;">
@@ -81,12 +99,17 @@ If you type <code>grunt -help</code> you will get a list of all the tasks availa
     </td><td>
 		Run predefined tasks whenever watched files change.
 	</td>
+	<td></td>
   </tr>
   <tr style="font: 13px Arial; vertical-align: text-top;">
 	<td>
         copy  
     </td><td>
 		Copy files. *
+	</td>
+	<td>
+		&diams;&nbsp;src
+		&diams;&nbsp;build		
 	</td>
   </tr>
   <tr style="font: 13px Arial; vertical-align: text-top;">
@@ -96,12 +119,19 @@ If you type <code>grunt -help</code> you will get a list of all the tasks availa
 		General purpose text replacement for grunt. Allows you to
                 replace text in files using strings, regexs or functions. *
 	</td>
+	<td>
+		&diams;&nbsp;src
+		&diams;&nbsp;build		
+	</td>
   </tr>
   <tr style="font: 13px Arial; vertical-align: text-top;">
 	<td>
         cssmin  
     </td><td>
 		Minify CSS *
+	</td>
+	<td>
+		&diams;&nbsp;build		
 	</td>
     </tr>
   <tr style="font: 13px Arial; vertical-align: text-top;">
@@ -110,6 +140,9 @@ If you type <code>grunt -help</code> you will get a list of all the tasks availa
     </td><td>
 		Compress files. *
     </td>
+	<td>
+		&diams;&nbsp;build		
+	</td>
   </tr>
   <tr style="font: 13px Arial; vertical-align: text-top;">
 	<td>
@@ -119,6 +152,9 @@ If you type <code>grunt -help</code> you will get a list of all the tasks availa
 		"replace:version",<br>
 		"clean:src",<br>
 		"copy:src" tasks.
+	</td>
+	<td>
+		Updates: version and src folder.
 	</td>
   </tr>
   <tr style="font: 13px Arial; vertical-align: text-top;">
@@ -143,5 +179,11 @@ If you type <code>grunt -help</code> you will get a list of all the tasks availa
 		"compress:distMIN",<br>
 		"clean:build" tasks.
 	</td>
+	<td>
+		Creates distributions: src, mix and min.
+	</td>
 </tr>
 </table>
+
+## Grunt QSE Tasks
+
