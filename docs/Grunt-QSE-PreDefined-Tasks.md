@@ -187,3 +187,47 @@ If you type <code>grunt -help</code> you will get a list of all the tasks availa
 
 ## Grunt QSE Tasks
 
+The Grunt QSE Template installs a **Gruntfile.js** on the *Visualization Extension* home directory, it define a couple of tasks to assist you managing the deployment of your visualization extension; you should be in the *extension* home directory to run these tasks:
+
+#### src
+
+<pre>grunt src</pre>
+
+* It increases the **version number** of your visualization extension in these files:
+	* package.json &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#10139; **version** field.
+	* &lt;Extension_Name>.qend &nbsp;&#10139; **description** and **version** fields
+	* js\properties.js &nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;&nbsp; &#10139;&nbsp; **label** attribute of **myaboutversion** property.
+* It clear the **src** folder in your home directory.
+* It copies these files into your **src** folder:
+	* css\*.* &#10139; &lt;extension_name>\src\css
+	* js\*.* &#10139; &lt;extension_name>\src\js
+	* &lt;extension_name>.* &#10139; &lt;extension_name>
+
+
+#### build
+
+<pre>grunt build</pre>
+
+* It checks your JavaScripts files code with **jshint**.
+* It clean the staging folder: **work**; with **clean**.
+* It includes the banner text to all the JavaScripts (js) and Cascade Style Sheets (css) files; with **concat**.
+* It copy the files *&lt;extension&#95;name>.png* and *&lt;extension&#95;name>.qext* to the staging folder **work**; with **copy**.
+* It minimize the Cascade Style Sheet file located in the staging folder; with **cssmin**
+* It updates references to minimized JavaScript and Cascade Style Sheet files; with **replace**.
+* It minimize JavaScript files; with **uglify**
+* It copy distribution specific files; with **copy:distSRC**, **copy:distMIX** and **copy:distMIN**.
+* It deletes the staging file: **&lt;extension&#95;name>.replace-text.js**.
+* It creates the zip files for each distribution into the **dist** folder; with **compress**.
+* It deletes the staging folder **work**; with **clean**.
+
+## Grunt Tasks Workflow
+
+Now these are the suggestion to organize your work around these Grunt Tasks installed with your QlikSense Visualization Extension!
+
+<ul>
+<li> You develop and debug your visualization extension as usual, by working in its &lt<extension&#95;name> folder and sub-folders.
+
+Once you reach 
+</ul>
+
+
