@@ -1,4 +1,4 @@
-# QSE Grunt Template for QlikSense
+# Grunt QSE Template (QS Visualization Extension)
 
 This is a **Grunt-Init Template** that creates a QlikSense Visualization Extension with several features, including a companion *Gruntfile.js* giving you some tasks to manage your extension's build process and storing it at your **GitHub** repository.
 
