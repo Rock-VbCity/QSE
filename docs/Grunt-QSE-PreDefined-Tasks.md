@@ -222,12 +222,23 @@ The Grunt QSE Template installs a **Gruntfile.js** on the *Visualization Extensi
 
 ## Grunt Tasks Workflow
 
-Now these are the suggestion to organize your work around these Grunt Tasks installed with your QlikSense Visualization Extension!
+Now these are the suggestion to organize your work around these Grunt Tasks that were installed with your QlikSense Visualization Extension!
 
 <ul>
-<li> You develop and debug your visualization extension as usual, by working in its &lt<extension&#95;name> folder and sub-folders.
+<li> You develop and debug your visualization extension as usual, by working in its **&lt;extension&#95;name>** folder and sub-folders with QlikSense<br><br>
 
-Once you reach 
+Each time you reach an stable point in your development, you could run <code>&nbsp;&nbsp;grunt src&nbsp;&nbsp;</code> to update the src folder with your latest stable point.<br><br>
+
+All this development cycle is happening in your extension home directory<br><br>
+
+``` js<br>
+    .
+    ├── css<br>
+    ├── js<br>
+    │<br>
+    └── ...<br>
+```
+<li> Once you reach that moment in your visualization extension development, and you are confident it is doing
 </ul>
 
 
