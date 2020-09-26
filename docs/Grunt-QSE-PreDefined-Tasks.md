@@ -233,8 +233,8 @@ All this development cycle is happening in your extension home directory<br>
 ``` js
     .
     ├── css
-    ├── js
-    │
+    ├── js                 │ grunt src │
+    │                      └──
     └── ...
 ```
 <li> Once you reach that moment in your visualization extension development, and you are confident it is doing
