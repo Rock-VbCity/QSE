@@ -10,6 +10,8 @@
 * [Using the CLI](https://gruntjs.com/using-the-cli); Grunt Command Line Interface home page.
 * [Project Scaffolding (grunt-init)](https://gruntjs.com/project-scaffolding); This is the grunt-init home page.
 
+* [ShellJS - Unix shell commands for Node.js](https://www.npmjs.com/package/shelljs); It is required by grunt-init QSE template, but its installation is not documented.
+
 ### Windows Environment
 
 * [How to take advantage of symbolic links in Windows 10](https://www.techrepublic.com/article/how-to-take-advantage-of-symbolic-links-in-window-10/) Article explaining the symbolic links concept.
