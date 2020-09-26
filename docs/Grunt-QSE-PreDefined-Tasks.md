@@ -230,13 +230,12 @@ Now these are the suggestion to organize your work around these Grunt Tasks that
 Each time you reach an stable point in your development, you could run <code>&nbsp;&nbsp;grunt src&nbsp;&nbsp;</code> to update the src folder with your latest stable point.<br><br>
 
 All this development cycle is happening in your extension home directory<br><br>
-
-``` js<br>
+``` js
     .
-    ├── css<br>
-    ├── js<br>
-    │<br>
-    └── ...<br>
+    ├── css
+    ├── js
+    │
+    └── ...
 ```
 <li> Once you reach that moment in your visualization extension development, and you are confident it is doing
 </ul>
