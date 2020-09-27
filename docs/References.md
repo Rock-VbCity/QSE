@@ -41,4 +41,7 @@ These are the Grunt's Contributions required by the tasks managing our releases
 * [grunt-contrib-uglify v5.0.0](https://www.npmjs.com/package/grunt-contrib-uglify); uglify tasks basically reduce your JavaScript files  to single lines code.
 * [grunt-contrib-watch v1.1.0](https://www.npmjs.com/package/grunt-contrib-watch); It run tasks when a predefined object in the files system change. **NOT IN USE**
 * [grunt-text-replace](https://www.npmjs.com/package/grunt-text-replace); tasks replacing text in your code reference this contribution.
-* 
+
+### Versioning
+
+* [Software Versioning](https://en.wikipedia.org/wiki/Software_versioning#:~:text=Degree%20of%20compatibility,-Semantic%20versioning%20three&text=Semantic%20versioning%20is%20a%20formal,application%20programming%20interface%20(API).)
