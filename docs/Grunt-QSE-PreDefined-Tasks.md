@@ -230,14 +230,22 @@ Now these are the suggestion to organize your work around these Grunt Tasks that
 Each time you reach an stable point in your development, you could run <code>&nbsp;&nbsp;grunt src&nbsp;&nbsp;</code> to update the src folder with your latest stable point.<br>
 
 All this development cycle is happening in your extension home directory<br>
-``` js
-    .
-    ├── css
-    ├── js                 │ grunt src │
-    │                      └──
-    └── ...
-```
-<li> Once you reach that moment in your visualization extension development, and you are confident it is doing
+
+<img src="images/QS_Extension_Workflow_01.png" width="300px" style="text-align: center;">
+
+<li> Once you reach that moment in your development that your visualization is ready for deployment, and you are confident it is doing what was required by its specifications, then you can build its distribution, by running the command <code>&nbsp;&nbsp;grunt build&nbsp;&nbsp;</code><br>
+Grunt creates 3 distribution files:
+<ul><li>&lt;extension_name>.zip
+<li>&lt;extension_name>-min.zip
+<li>&lt;extension_name>-mix.zip
 </ul>
+
+#### &lt;extension_name>.zip
+
+
+#### &lt;extension_name>-min.zip
+
+
+#### &lt;extension_name>-mix.zip
 
 
